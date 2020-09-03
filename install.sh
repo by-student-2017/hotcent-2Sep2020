@@ -33,6 +33,7 @@ sudo apt install -y python3-matplotlib
 #sudo apt install -y grace
 #sudo apt install -y jmol
 #sudo apt install -y gnuplot
+sudo apt install -y gpaw cp2k quantum-espresso
 
 if [ -d $HOME/tango/libxc-4.3.4 ]; then
   echo " "
@@ -54,7 +55,6 @@ else
   echo " "
   echo "DFTB+ 17.1 install"
   tar xf dftbplus-17.1.x86_64-linux.tar.xz
-  wget http://www.dftb.org/fileadmin/DFTB/public/slako/pbc/pbc-0-3.tar.xz
   tar xf pbc-0-3.tar.xz
   echo "dftb+17.1 environment settings"
   echo ' ' >> ~/.bashrc
