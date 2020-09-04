@@ -1,0 +1,9 @@
+
+set up
+1. chmod +x run.sh
+
+run
+1. gedit table
+2. ./run.sh Si
+ or ./run.sh Si qe
+ or ./run.sh Si cp2k
