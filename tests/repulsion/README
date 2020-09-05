@@ -1,0 +1,7 @@
+
+setup
+1. chmod +x run.sh
+
+run
+1. ./run.sh Si qe
+  (or ./run.sh Si cp2k)

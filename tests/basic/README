@@ -1,0 +1,7 @@
+
+setup
+1. chmod +x run.sh
+
+run
+1. gedit table
+2. ./run.sh Si
