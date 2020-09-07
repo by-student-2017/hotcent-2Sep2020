@@ -12,8 +12,8 @@ import sys
 import ast
 
 element = 'Xx'
-xc = 'LDA'
-#xc = 'PBE'
+#xc = 'LDA'
+xc = 'PBE'
 #elem_data = commands.getoutput("awk '{if($1==\""+str(element)+"\"{print $0}}' gpaw_table") #python2
 elem_data = subprocess.getoutput("awk '{if($1==\""+str(element)+"\"){print $0}}' gpaw_table") #python3
 elem_list = elem_data.split(" | ")

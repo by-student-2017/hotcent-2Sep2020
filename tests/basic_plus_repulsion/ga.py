@@ -31,7 +31,7 @@ class DftbPlusCalc(DftbPlusCalculator):
         kwargs['Hamiltonian_SCC'] = 'No'
         kwargs['Hamiltonian_ShellResolvedSCC'] = 'No'
         kwargs['Hamiltonian_OrbitalResolvedSCC'] = 'No'
-        kwargs['maximum_angular_momenta'] = {'Si': 1}
+        kwargs['maximum_angular_momenta'] = {'Xx': 1}
         DftbPlusCalculator.__init__(self, *args, **kwargs)
 
 def penalize(t):
@@ -243,7 +243,7 @@ def run_ga(n_to_test, kptdensity=1.5):
 
 def prepare_ga(dbfile='godb.db', splits={(2,):1}, N=20):
 
-    blocks = [('Si', 4)]  # the building blocks
+    blocks = [('Xx', 4)]  # the building blocks
     volume = 8. * 4 # volume in angstrom^3
 
     l = [list(Atoms(block).numbers)*count for block, count in blocks]

@@ -11,7 +11,7 @@ inp = '''
      IGNORE_MISSING_CRITICAL_PARAMS .TRUE.
      &NONBONDED
        &TERSOFF
-         ATOMS Si Si
+         ATOMS Xx Xx
        &END TERSOFF
      &END NONBONDED
    &END FORCEFIELD

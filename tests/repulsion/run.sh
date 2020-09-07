@@ -16,6 +16,10 @@ else
 
   sed -i "s/Xx/$1/g" master_cp2k.py
   sed -i "s/Xx/$1/g" master_qe.py
+
+  sed -i "s/Xx/$1/g" cp2k_calc.py
+
+  sed -i "s/Xx/$1/g" ga.py
 fi
 
 if [ -z "$2" ]; then
