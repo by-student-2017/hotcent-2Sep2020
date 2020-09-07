@@ -3,6 +3,8 @@
 if [ -z "$1" ]; then
   echo "please, input name of element after command"
 else
+  export DFTB_PREFIX=$(pwd)
+
   cp gpaw_data_origin.py gpaw_data_$1.py
   cp param_fit_origin.py param_fit_$1.py
 

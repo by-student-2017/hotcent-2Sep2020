@@ -9,6 +9,8 @@ else
   export "NCORES=${ncpu}"
   export ASE_ESPRESSO_COMMAND="mpirun -np $NCORES pw.x -in PREFIX.pwi > PREFIX.pwo"
 
+  export DFTB_PREFIX=$(pwd)
+
   cp qe_data_origin.py qe_data_$1.py
   cp param_fit_origin.py param_fit_$1.py
 

@@ -55,6 +55,7 @@ else
   echo " "
   echo "DFTB+ 17.1 install"
   tar xf dftbplus-17.1.x86_64-linux.tar.xz
+  wget https://www.dftb.org/fileadmin/DFTB/public/slako/pbc/pbc-0-3.tar.xz
   tar xf pbc-0-3.tar.xz
   echo "dftb+17.1 environment settings"
   echo ' ' >> ~/.bashrc
