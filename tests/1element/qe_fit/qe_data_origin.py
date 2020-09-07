@@ -87,5 +87,5 @@ calc.calculate(atoms)
 
 bs_qe = calc.band_structure()
 bs_qe.reference = evbm
-bs_qe.plot(filename='bs_qe.png', show=False, emax=evbm + 5., emin=evbm - 15.)
+bs_qe.plot(filename='bs_qe_data.png', show=False, emax=evbm + 5., emin=evbm - 15.)
 write_json('bs_qe.json', bs_qe)

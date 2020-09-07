@@ -68,5 +68,5 @@ calc.get_potential_energy()
 bs_gpaw = calc.band_structure()
 #bs_gpaw.reference = evbm
 bs_gpaw_reference = evbm
-bs_gpaw.plot(filename='bs_gpaw.png', show=False, emax=evbm + 5., emin=evbm - 15.)
+bs_gpaw.plot(filename='bs_gpaw_data.png', show=False, emax=evbm + 5., emin=evbm - 15.)
 write_json('bs_gpaw.json', bs_gpaw)

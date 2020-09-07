@@ -34,6 +34,8 @@ sudo apt install -y python3-sympy
 #sudo apt install -y jmol
 #sudo apt install -y gnuplot
 sudo apt install -y gpaw cp2k quantum-espresso
+python3 -m pip install --upgrade pip
+python3 -m pip install --upgrade Pillow
 
 if [ -d $HOME/tango/libxc-4.3.4 ]; then
   echo " "

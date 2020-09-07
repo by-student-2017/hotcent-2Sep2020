@@ -129,3 +129,4 @@ vconf = confopt.run(dpbs.get_residual, initial_guess=initial_guess, tol=1e-2,
 # (generated with the confinement parameters yielding the lowest residual)
 bs_dftb = dpbs.calculate_bandstructure(bs_gpaw)
 bs_dftb.plot(filename='bs_dftb.png', emax=bs_dftb.reference + 5, emin=bs_dftb.reference - 15)
+bs_gpaw.plot(filename='bs_gpaw.png', emax=bs_dftb.reference + 5, emin=bs_dftb.reference - 15)

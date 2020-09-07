@@ -23,6 +23,8 @@ else
   #mkdir iter000
   #mv $1-$1.skf ./iter000/$1-$1_no_repulsion.skf
   mv $1-$1.skf $1-$1_no_repulsion.skf
+
+  python3 compare.py
 fi
 
 #if [ -z "$2" ]; then
