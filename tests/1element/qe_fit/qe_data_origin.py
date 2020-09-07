@@ -85,7 +85,7 @@ calc.set(kpts={'path': spath, 'npoints': 50},
          )
 calc.calculate(atoms)
 
-bs_gpaw = calc.band_structure()
-bs_gpaw.reference = evbm
-bs_gpaw.plot(filename='bs_qe.png', show=False, emax=evbm + 5., emin=evbm - 15.)
-write_json('bs_qe.json', bs_gpaw)
+bs_qe = calc.band_structure()
+bs_qe.reference = evbm
+bs_qe.plot(filename='bs_qe.png', show=False, emax=evbm + 5., emin=evbm - 15.)
+write_json('bs_qe.json', bs_qe)
