@@ -31,7 +31,7 @@ class DftbPlusCalc(DftbPlusCalculator):
         kwargs['Hamiltonian_SCC'] = 'No'
         kwargs['Hamiltonian_ShellResolvedSCC'] = 'No'
         kwargs['Hamiltonian_OrbitalResolvedSCC'] = 'No'
-        kwargs['maximum_angular_momenta'] = {'Xx': 1}
+        kwargs['maximum_angular_momenta'] = {'Xx': MAM}
         DftbPlusCalculator.__init__(self, *args, **kwargs)
 
 def penalize(t):

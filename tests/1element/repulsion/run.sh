@@ -52,7 +52,8 @@ else
   done
 
   sed -i "s/MAM/$LMAM/g" master_cp2k.py
-  sed -i "s/MAM/$LMAM/g" master_qe.py  
+  sed -i "s/MAM/$LMAM/g" master_qe.py
+  sed -i "s/MAM/$LMAM/g" ga.py
 
   #sed -i "s/Xx/$1/g" cp2k_calc.py
 
