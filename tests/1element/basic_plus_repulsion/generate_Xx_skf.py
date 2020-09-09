@@ -48,7 +48,7 @@ atom = AtomicDFT(element,
                  xc=xc,
                  configuration=configuration,
                  valence=valence,
-                 scalarrel=False,
+                 scalarrel=True,
                  )
 atom.run()
 eigenvalues = {nl: atom.get_eigenvalue(nl) for nl in valence}
@@ -61,7 +61,7 @@ atom = AtomicDFT(element,
                  xc=xc,
                  configuration=configuration,
                  valence=valence,
-                 scalarrel=False,
+                 scalarrel=True,
                  confinement=PowerConfinement(r0=40., s=4),
                  )
 U = atom.get_hubbard_value(nls, scheme='central', maxstep=1.)
@@ -76,11 +76,11 @@ r_wfc = 2 * r_cov
 r_rho = 3 * r_cov
 atom = AtomicDFT(element,
                  xc=xc,
-                 confinement=PowerConfinement(r0=r_wfc, s=2),
-                 wf_confinement=PowerConfinement(r0=r_rho, s=2),
+                 confinement=PowerConfinement(r0=r_rho, s=2),
+                 wf_confinement=PowerConfinement(r0=r_wfc, s=2),
                  configuration=configuration,
                  valence=valence,
-                 scalarrel=False,
+                 scalarrel=True,
                  )
 atom.run()
 
