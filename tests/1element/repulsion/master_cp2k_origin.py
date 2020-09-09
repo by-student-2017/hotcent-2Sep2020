@@ -55,7 +55,7 @@ if __name__=='__main__':
                  kptdensity=kptdensity,
                  initial_training='random_vc_relax',
                  generator=generator,
-                 maximum_angular_momenta={'Xx': 1},
+                 maximum_angular_momenta={'Xx': MAM},
                  mode='exp_poly',
                  rcuts=rcuts,
                  rmins=rmins,
