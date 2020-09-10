@@ -1,0 +1,10 @@
+
+setup
+1. chmod +x run.sh
+
+run
+1. gedit table
+2. gedit POSCAR
+3. ./run.sh Mg O qe
+  (or ./run.sh Mg O cp2k)
+  (or ./run.sh Mg O nwchem) (failed)
