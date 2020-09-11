@@ -1,0 +1,31 @@
+&CONTROL 
+  calculation  = 'scf',
+  prefix  = 'Zr'
+  outdir  = './work/Zr/'
+  pseudo_dir = './' , 
+/
+&SYSTEM 
+  ibrav=1,
+  celldm(1)=20.0,
+  nat=1,
+  ntyp=1,
+  nosym=.true.,
+  nspin=2,
+  starting_magnetization(1) = 1 ,
+  tot_magnetization = -1 ,
+  ecutwfc=40.0,
+  ecutrho=200.0,
+  occupations = 'smearing' , 
+  smearing = 'gaussian', 
+  degauss  = 0.001 , 
+/
+&ELECTRONS 
+  mixing_beta=0.1,
+  conv_thr=0.5E-5,
+/
+ATOMIC_SPECIES 
+Zr 91.22400 zr_pbe_v1.uspp.F.UPF
+ATOMIC_POSITIONS alat
+Zr 0.0 0.0 0.0
+K_POINTS automatic
+1 1 1  0 0 0

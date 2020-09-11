@@ -3,7 +3,7 @@
 if [ -z "$1" ]; then
   echo "please, input name of element after command"
 else
-  ESPRESSO_PSEUDO=$(pwd)/pseudo
+  ESPRESSO_PSEUDO=$(pwd)/../../pseudo
   export "ESPRESSO_PSEUDO=${ESPRESSO_PSEUDO}"
   ncpu=`grep physical.id /proc/cpuinfo | sort -u | wc -l`
   export "NCORES=${ncpu}"
@@ -34,7 +34,7 @@ fi
 #  echo "***********************************************"
 #  echo "Repulsion on tango"
 #  echo "***********************************************"
-#  ESPRESSO_PSEUDO=$(pwd)/pseudo
+#  ESPRESSO_PSEUDO=$(pwd)/../../pseudo
 #  export "ESPRESSO_PSEUDO=${ESPRESSO_PSEUDO}"
 #  ncpu=`grep physical.id /proc/cpuinfo | sort -u | wc -l`
 #  export "NCORES=${ncpu}"

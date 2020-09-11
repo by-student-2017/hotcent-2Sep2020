@@ -20,6 +20,9 @@ from tango.calculators.dftbplus_calc import DftbPlusCalculator
 from ase.io import read
 from ase.calculators.espresso import Espresso
 
+import subprocess #python3
+import sys
+
 xc='PBE'
 # Espresso
 input_data = {'control':{'disk_io': 'low'},
@@ -54,6 +57,11 @@ def calculate_target_repulsion(atoms, rc):
     pos = atoms.get_positions()
     sym = atoms.get_chemical_symbols()
 
+    esp = 0.0
+    for sp in sym:
+        espc = subprocess.getoutput("awk '{if($1==\""+str(sp)+"\"){print $2}}' energy_data_for_isolated_atom_references") #python3
+        esp += float(espc)
+
     # First perform a regular SCF run
     gbrv_pp = {}
     ppdir = os.environ['ESPRESSO_PSEUDO']
@@ -71,7 +79,8 @@ def calculate_target_repulsion(atoms, rc):
     atoms.calc = calc
     
     e, f = 0., np.zeros((N, 3))
-    e = atoms.get_potential_energy()
+    e = atoms.get_potential_energy() - esp
+    print("cohesive energy [eV] = ",e)
     f = atoms.get_forces()
     powers = np.arange(6)
 
