@@ -83,7 +83,7 @@ fi
 echo " "
 echo "hotcent install"
 export PYTHONPATH=~/hotcent:$PYTHONPATH
-python3 setup.py build_ext --inplace
+sudo python3 setup.py build_ext --inplace
 echo "hotcent environment settings"
 echo ' ' >> ~/.bashrc
 echo '# hotcent' >> ~/.bashrc
