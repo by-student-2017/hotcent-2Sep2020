@@ -52,7 +52,8 @@ print("nls = ",nls)
 rNum = int(elem_list[5])
 print("rNum = ",rNum)
 
-lmax = valence[-1][1]
+#lmax = valence[-1][1]
+lmax = str(elem_list[6])
 print("lmax = ",lmax)
 
 # Setting up the atomic DFT instance(s) and
