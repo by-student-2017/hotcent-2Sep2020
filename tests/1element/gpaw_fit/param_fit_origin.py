@@ -61,16 +61,21 @@ atom = AtomicDFT(element,
                  configuration=configuration,
                  valence=valence,
                  xc=xc,
-                 scalarrel=False,
-                 mix=0.05,
-                 maxiter=500,
+                 scalarrel=True,
+                 mix=0.005,
+                 maxiter=50000,
                  confinement=PowerConfinement(r0=40., s=4),
                  txt=None)
 atom.run()
 atom.info = {}
 atom.info['eigenvalues'] = {nl: atom.get_eigenvalue(nl) for nl in atom.valence}
 
-U_p = atom.get_hubbard_value(nls, scheme='central', maxstep=1.)
+if (element == "H"):
+  # https://webbook.nist.gov/cgi/cbook.cgi?ID=C12385136&Mask=20
+  # hubbard value = U = IE - EA = 13.59844 - 0.75497 = 12.84347 [eV]
+  U_p = 12.84347
+else:
+  U_p = atom.get_hubbard_value(nls, scheme='central', maxstep=1.)
 atom.info['hubbardvalues'] = {'s': U_p}
 atom.info['occupations'] = occupations
 

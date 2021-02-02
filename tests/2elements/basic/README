@@ -1,7 +1,14 @@
 
 setup
 1. chmod +x run.sh
+2. chmod +x run_seq.sh
 
 run
 1. gedit table
 2. ./run.sh Mg O
+
+sequential run
+1. gedit table
+2. gedit run_seq.sh
+3. mkdir results
+4. ./run_seq.sh

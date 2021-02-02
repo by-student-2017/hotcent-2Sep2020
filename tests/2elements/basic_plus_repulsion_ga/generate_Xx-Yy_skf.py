@@ -60,13 +60,20 @@ for el in elements:
                      valence=valence,
                      scalarrel=True,
                      confinement=PowerConfinement(r0=40., s=4),
+                     maxiter=50000,
+                     mix=0.005,
                      txt='-',
                      )
     atom.run()
     eigenvalues[el] = {nl: atom.get_eigenvalue(nl) for nl in valence}
     nl = nls2 if el == elements[1] else nls1
     scheme = 'central' if el == elements[1] else 'backward'
-    U = atom.get_hubbard_value(nl, scheme=scheme)
+    if (el == "H"):
+      # https://webbook.nist.gov/cgi/cbook.cgi?ID=C12385136&Mask=20
+      # hubbard value = U = IE - EA = 13.59844 - 0.75497 = 12.84347 [eV]
+      U = 12.84347
+    else:
+      U = atom.get_hubbard_value(nl, scheme=scheme)
     hubbardvalues[el] = {'s': U}
 
 # --------------------------------------------------
@@ -86,6 +93,8 @@ for el in elements:
                      configuration=configurations[el],
                      valence=valence,
                      scalarrel=True,
+                     maxiter=50000,
+                     mix=0.005,
                      txt='-',
                      )
     atom.run()
