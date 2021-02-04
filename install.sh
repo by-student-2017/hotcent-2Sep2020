@@ -33,7 +33,9 @@ sudo apt install -y python3-sympy
 #sudo apt install -y grace
 #sudo apt install -y jmol
 #sudo apt install -y gnuplot
-sudo apt install -y gpaw cp2k quantum-espresso
+sudo apt install -y gpaw
+sudo apt install -y quantum-espresso 
+#sudo apt install -y cp2k
 sudo apt install python3-pip
 python3 -m pip install --upgrade pip
 python3 -m pip install --upgrade Pillow
