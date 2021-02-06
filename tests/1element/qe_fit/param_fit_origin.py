@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 from ase.io.jsonio import read_json
+from ase.units import Ha
 from ase.units import Bohr
 from ase.build import bulk
 from ase.data import atomic_numbers, covalent_radii
@@ -74,7 +75,7 @@ atom.info['eigenvalues'] = {nl: atom.get_eigenvalue(nl) for nl in atom.valence}
 if (element == "H"):
   # https://webbook.nist.gov/cgi/cbook.cgi?ID=C12385136&Mask=20
   # hubbard value = U = IE - EA = 13.59844 - 0.75497 = 12.84347 [eV]
-  U_p = 12.84347
+  U_p = 12.84347/Ha
 else:
   U_p = atom.get_hubbard_value(nls, scheme='central', maxstep=1.)
 atom.info['hubbardvalues'] = {'s': U_p}

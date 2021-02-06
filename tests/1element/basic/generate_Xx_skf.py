@@ -1,4 +1,5 @@
 import os
+from ase.units import Ha
 from ase.units import Bohr
 from ase.data import covalent_radii, atomic_numbers
 from hotcent.atomic_dft import AtomicDFT
@@ -62,7 +63,8 @@ eigenvalues = {nl: atom.get_eigenvalue(nl) for nl in valence}
 if (element == "H"):
   # https://webbook.nist.gov/cgi/cbook.cgi?ID=C12385136&Mask=20
   # hubbard value = U = IE - EA = 13.59844 - 0.75497 = 12.84347 [eV]
-  U = 12.84347
+  #U = 12.84347/27.211386245988
+  U = 12.84347/Ha
 else:
   atom = AtomicDFT(element,
                  xc=xc,
@@ -75,6 +77,9 @@ else:
                  )
   U = atom.get_hubbard_value(nls, scheme='central', maxstep=1.)
 hubbardvalues = {'s': U}
+print('=======================================')
+for value, label in zip([U], ['U']):
+    print(label, '[Ha]:', value, '[eV]:', value * Ha)
 
 # -------------------------------
 # Compute Slater-Koster integrals
