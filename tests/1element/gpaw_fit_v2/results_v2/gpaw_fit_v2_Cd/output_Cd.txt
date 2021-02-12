@@ -1,0 +1,632 @@
+element =  Cd
+struct =  hcp
+nbands =  -4
+path =  GMKGA
+kpts =  (8,8,4)
+lattice constant a =  2.979
+lattice constant b =  2.979
+lattice constant c =  5.619
+alpha angle =  90.0
+
+  ___ ___ ___ _ _ _  
+ |   |   |_  | | | | 
+ | | | | | . | | | | 
+ |__ |  _|___|_____|  1.3.1b1
+ |___|_|             
+
+User:   inukai@DESKTOP-12SE80T
+Date:   Fri Feb 12 01:00:05 2021
+Arch:   x86_64
+Pid:    16896
+Python: 3.6.9
+gpaw:   /usr/lib/python3/dist-packages/gpaw
+_gpaw:  /usr/lib/python3/dist-packages/_gpaw.cpython-36m-x86_64-linux-gnu.so
+ase:    /home/inukai/hotcent/ase-3.19.3/ase (version 3.19.3)
+numpy:  /home/inukai/.local/lib/python3.6/site-packages/numpy (version 1.19.5)
+scipy:  /home/inukai/.local/lib/python3.6/site-packages/scipy (version 1.5.4)
+units:  Angstrom and eV
+cores:  1
+
+Input parameters:
+  kpts: [8 8 4]
+  maxiter: 1500
+  mixer: {backend: pulay,
+          beta: 0.01,
+          method: separate,
+          nmaxold: 11,
+          weight: 100.0}
+  mode: {ecut: 400.0,
+         name: pw}
+  occupations: {name: fermi-dirac,
+                width: 0.02}
+  spinpol: True
+  xc: PBE
+
+System changes: positions, numbers, cell, pbc, initial_charges, initial_magmoms 
+
+Initialize ...
+
+Cd-setup:
+  name: Cadmium
+  id: b24f2afa1c5614a277213cf5a4209897
+  Z: 48
+  valence: 12
+  core: 36
+  charge: 0.0
+  file: /usr/share/gpaw-setups/Cd.PBE.gz
+  cutoffs: 1.20(comp), 2.12(filt), 2.62(core), lmax=2
+  valence states:
+                energy  radius
+    5s(2.00)    -5.655   1.191
+    5p(0.00)    -1.186   1.228
+    4d(10.00)   -11.739   1.164
+    *s          21.556   1.191
+    *p          26.026   1.228
+    *d          15.473   1.164
+
+  Using partial waves for Cd as LCAO basis
+
+Reference energy: -304346.236673
+
+Spin-polarized calculation.
+Magnetic moment:  0.000000
+
+Occupation numbers:
+  Fermi-Dirac: width=0.0200 eV
+
+Convergence criteria:
+  Maximum total energy change: 0.0005 eV / electron
+  Maximum integral of absolute density change: 0.0001 electrons
+  Maximum integral of absolute eigenstate change: 4e-08 eV^2
+  Maximum number of iterations: 1500
+
+Symmetries present (total): 12
+
+  ( 1  1  0)  ( 1  1  0)  ( 1  0  0)  ( 1  0  0)  ( 0  1  0)  ( 0  1  0)
+  ( 0 -1  0)  ( 0 -1  0)  ( 0  1  0)  ( 0  1  0)  (-1 -1  0)  (-1 -1  0)
+  ( 0  0  1)  ( 0  0 -1)  ( 0  0  1)  ( 0  0 -1)  ( 0  0  1)  ( 0  0 -1)
+
+  ( 0 -1  0)  ( 0 -1  0)  (-1  0  0)  (-1  0  0)  (-1 -1  0)  (-1 -1  0)
+  (-1  0  0)  (-1  0  0)  ( 1  1  0)  ( 1  1  0)  ( 1  0  0)  ( 1  0  0)
+  ( 0  0  1)  ( 0  0 -1)  ( 0  0  1)  ( 0  0 -1)  ( 0  0  1)  ( 0  0 -1)
+Note: your k-points are not as symmetric as your crystal!
+
+256 k-points: 8 x 8 x 4 Monkhorst-Pack grid
+40 k-points in the irreducible part of the Brillouin zone
+       k-points in crystal coordinates                weights
+   0:     0.06250000   -0.06250000    0.12500000          4/256
+   1:     0.06250000   -0.06250000    0.37500000          4/256
+   2:     0.06250000    0.06250000    0.12500000          4/256
+   3:     0.06250000    0.06250000    0.37500000          4/256
+   4:     0.18750000   -0.18750000    0.12500000          4/256
+   5:     0.18750000   -0.18750000    0.37500000          4/256
+   6:     0.18750000   -0.06250000    0.12500000          8/256
+   7:     0.18750000   -0.06250000    0.37500000          8/256
+   8:     0.18750000    0.06250000    0.12500000          8/256
+   9:     0.18750000    0.06250000    0.37500000          8/256
+          ...
+  39:     0.43750000    0.43750000    0.37500000          4/256
+
+Wave functions: Plane wave expansion
+  Cutoff energy: 400.000 eV
+  Number of coefficients (min, max): 772, 795
+  Using FFTW library
+  Eigensolver: None  MatrixOperator buffer_size: default value or 
+                              see value of nblock in input file
+Diagonalizer layout: Serial LAPACKOrthonormalizer layout: Serial LAPACK 
+
+Davidson(niter=1, smin=None, normalize=True) 
+
+Densities:
+  Coarse grid: 12*12*27 grid
+  Fine grid: 24*24*54 grid
+  Total Charge: 0.000000 
+
+Density mixing:
+  Method: separate
+  Backend: pulay
+  Linear mixing parameter: 0.01
+  Mixing with 11 old densities
+  Damping of long wave oscillations: 100 
+
+Hamiltonian:
+  XC and Coulomb potentials evaluated on a 24*24*54 grid
+  Using the PBE Exchange-Correlation functional
+ 
+
+Memory estimate:
+  Process memory now: 928.71 MiB
+  Calculator: 26.59 MiB
+    Density: 2.89 MiB
+      Arrays: 1.04 MiB
+      Localized functions: 0.55 MiB
+      Mixer: 1.31 MiB
+    Hamiltonian: 0.78 MiB
+      Arrays: 0.77 MiB
+      XC: 0.00 MiB
+      Poisson: 0.00 MiB
+      vbar: 0.01 MiB
+    Wavefunctions: 22.91 MiB
+      Arrays psit_nG: 17.47 MiB
+      Eigensolver: 0.33 MiB
+      Projections: 0.79 MiB
+      Projectors: 3.59 MiB
+      Overlap op: 0.22 MiB
+      PW-descriptor: 0.51 MiB
+
+Total number of cores used: 1
+
+Number of atoms: 2
+Number of atomic orbitals: 18
+Number of bands in calculation: 18
+Bands to converge: occupied states only
+Number of valence electrons: 24
+
+... initialized
+
+Initializing position-dependent things.
+
+Density initialized from atomic densities
+Creating initial wave functions:
+  18 bands from LCAO basis set
+
+                  
+                  
+                  
+                  
+         Cd       
+                  
+                  
+                  
+       Cd         
+                  
+                  
+                  
+                  
+
+Positions:
+   0 Cd     0.000000    0.000000    0.000000
+   1 Cd     0.000000    1.719926    2.809500
+
+Unit cell:
+           periodic     x           y           z      points  spacing
+  1. axis:    yes    2.979000    0.000000    0.000000    12     0.2150
+  2. axis:    yes   -1.489500    2.579890    0.000000    12     0.2150
+  3. axis:    yes    0.000000    0.000000    5.619000    27     0.2081
+
+  Lengths:   2.979000   2.979000   5.619000
+  Angles:   90.000000  90.000000 120.000000
+
+Effective grid spacing dv^(1/3) = 0.2231
+
+                     log10-error:    total        iterations:
+           time      wfs    density  energy       fermi  poisson  magmom
+iter:   1  01:00:11  +1.65   +inf    -1.712256    3               +0.0000
+iter:   2  01:00:14  -0.69   +inf    -1.734895    3               +0.0000
+iter:   3  01:00:17  -1.63   +inf    -1.738951    2               +0.0000
+iter:   4  01:00:20  -2.07  -1.45    -1.735777    3               +0.0000
+iter:   5  01:00:24  -0.55  -1.46    -1.639499    28              -0.0000
+iter:   6  01:00:28  -0.70  -1.72    -1.700319    29              -0.0000
+iter:   7  01:00:31  -0.66  -1.99    -1.639321    5               +0.0000
+iter:   8  01:00:35  -1.98  -2.23    -1.637409    3               +0.0000
+iter:   9  01:00:39  -3.14  -3.14    -1.637616    3               -0.0000
+iter:  10  01:00:42  -4.04  -3.02    -1.637705    3               +0.0000
+iter:  11  01:00:46  -2.94  -2.95    -1.637611    3               -0.0000
+iter:  12  01:00:49  -3.41  -3.34    -1.637581    3               -0.0000
+iter:  13  01:00:53  -5.38  -3.81    -1.637581    2               -0.0000
+iter:  14  01:00:56  -5.83  -3.83    -1.637581    2               -0.0000
+iter:  15  01:01:00  -5.28  -3.82    -1.637587    2               -0.0000
+iter:  16  01:01:03  -5.02  -3.75    -1.637581    2               -0.0000
+iter:  17  01:01:06  -6.44  -4.01    -1.637582    1               -0.0000
+iter:  18  01:01:10  -6.97  -4.24    -1.637582    2               -0.0000
+iter:  19  01:01:13  -7.64  -4.26    -1.637582    1               -0.0000
+
+Converged after 19 iterations.
+
+Dipole moment: (-2.646297, 1.527840, 0.000000) |e|*Ang
+
+Total magnetic moment: -0.000000
+Local magnetic moments:
+   0 Cd 0.000000
+   1 Cd 0.000000
+
+Energy contributions relative to reference atoms: (reference = -304346.236673)
+
+Kinetic:        +12.068417
+Potential:       -9.001335
+External:        +0.000000
+XC:              -5.184077
+Entropy (-ST):   -0.001089
+Local:           +0.479957
+--------------------------
+Free energy:     -1.638127
+Extrapolated:    -1.637582
+
+Spin contamination: 0.000000 electrons
+Fermi level: 7.52787
+
+Warning: Showing only first 2 kpts
+                      Up                     Down
+ Kpt  Band  Eigenvalues  Occupancy  Eigenvalues  Occupancy
+  0    10     -0.72773    0.01562     -0.72773    0.01562
+  0    11      3.45100    0.01562      3.45100    0.01562
+  0    12      6.25985    0.01562      6.25985    0.01562
+  0    13     17.22587    0.00000     17.22587    0.00000
+
+  1    10     -0.18674    0.01562     -0.18674    0.01562
+  1    11      1.28442    0.01562      1.28442    0.01562
+  1    12      9.63132    0.00000      9.63132    0.00000
+  1    13     13.43569    0.00000     13.43569    0.00000
+
+
+Input parameters:
+  convergence: {bands: all}
+  eigensolver: {name: cg,
+                niter: 5}
+  fixdensity: True
+  kpts: {npoints: 50,
+         path: GMKGA}
+  nbands: -4
+  symmetry: off
+
+Initialize ...
+
+Cd-setup:
+  name: Cadmium
+  id: b24f2afa1c5614a277213cf5a4209897
+  Z: 48
+  valence: 12
+  core: 36
+  charge: 0.0
+  file: /usr/share/gpaw-setups/Cd.PBE.gz
+  cutoffs: 1.20(comp), 2.12(filt), 2.62(core), lmax=2
+  valence states:
+                energy  radius
+    5s(2.00)    -5.655   1.191
+    5p(0.00)    -1.186   1.228
+    4d(10.00)   -11.739   1.164
+    *s          21.556   1.191
+    *p          26.026   1.228
+    *d          15.473   1.164
+
+  Using partial waves for Cd as LCAO basis
+
+Reference energy: -304346.236673
+
+Spin-polarized calculation.
+Magnetic moment:  0.000000
+
+Occupation numbers:
+  Fixed Fermi level
+  Fermi-Dirac: width=0.0200 eV
+
+Convergence criteria:
+  Maximum total energy change: 0.0005 eV / electron
+  Maximum integral of absolute density change: 0.0001 electrons
+  Maximum integral of absolute eigenstate change: 4e-08 eV^2
+  Maximum number of iterations: 1500
+
+Symmetries present (total): 1
+
+  ( 1  0  0)
+  ( 0  1  0)
+  ( 0  0  1)
+
+50 k-points
+50 k-points in the irreducible part of the Brillouin zone
+       k-points in crystal coordinates                weights
+   0:     0.00000000    0.00000000    0.00000000          1/50
+   1:     0.03333333    0.00000000    0.00000000          1/50
+   2:     0.06666667    0.00000000    0.00000000          1/50
+   3:     0.10000000    0.00000000    0.00000000          1/50
+   4:     0.13333333    0.00000000    0.00000000          1/50
+   5:     0.16666667    0.00000000    0.00000000          1/50
+   6:     0.20000000    0.00000000    0.00000000          1/50
+   7:     0.23333333    0.00000000    0.00000000          1/50
+   8:     0.26666667    0.00000000    0.00000000          1/50
+   9:     0.30000000    0.00000000    0.00000000          1/50
+          ...
+  49:     0.00000000    0.00000000    0.50000000          1/50
+
+Wave functions: Plane wave expansion
+  Cutoff energy: 400.000 eV
+  Number of coefficients (min, max): 767, 800
+  Using FFTW library
+  Eigensolver: None  MatrixOperator buffer_size: default value or 
+                              see value of nblock in input file
+Diagonalizer layout: Serial LAPACKOrthonormalizer layout: Serial LAPACK 
+
+CG(niter=5, rtol=3.0e-01) 
+
+No density mixing
+
+Memory estimate:
+  Process memory now: 1027.51 MiB
+  Calculator: 29.62 MiB
+    Density: 2.89 MiB
+      Arrays: 1.04 MiB
+      Localized functions: 0.55 MiB
+      Mixer: 1.31 MiB
+    Hamiltonian: 0.78 MiB
+      Arrays: 0.77 MiB
+      XC: 0.00 MiB
+      Poisson: 0.00 MiB
+      vbar: 0.01 MiB
+    Wavefunctions: 25.95 MiB
+      Arrays psit_nG: 19.53 MiB
+      Eigensolver: 0.26 MiB
+      Projections: 0.88 MiB
+      Projectors: 4.49 MiB
+      Overlap op: 0.20 MiB
+      PW-descriptor: 0.60 MiB
+
+Total number of cores used: 1
+
+Number of atoms: 2
+Number of atomic orbitals: 18
+Number of bands in calculation: 16
+Bands to converge: all
+Number of valence electrons: 24
+
+... initialized
+
+Initializing position-dependent things.
+
+Creating initial wave functions:
+  16 bands from LCAO basis set
+
+                  
+                  
+                  
+                  
+         Cd       
+                  
+                  
+                  
+       Cd         
+                  
+                  
+                  
+                  
+
+Positions:
+   0 Cd     0.000000    0.000000    0.000000
+   1 Cd     0.000000    1.719926    2.809500
+
+Unit cell:
+           periodic     x           y           z      points  spacing
+  1. axis:    yes    2.979000    0.000000    0.000000    12     0.2150
+  2. axis:    yes   -1.489500    2.579890    0.000000    12     0.2150
+  3. axis:    yes    0.000000    0.000000    5.619000    27     0.2081
+
+  Lengths:   2.979000   2.979000   5.619000
+  Angles:   90.000000  90.000000 120.000000
+
+Effective grid spacing dv^(1/3) = 0.2231
+
+                     log10-error:    total        iterations:
+           time      wfs    density  energy       fermi  poisson  magmom
+iter:   1  01:01:31  +1.06           -5.230065    30              -0.0000
+iter:   2  01:01:43  +0.08           -5.255368    31              -0.0000
+iter:   3  01:01:56  -0.76           -5.259919    28              -0.0000
+iter:   4  01:02:10  -1.63           -5.260552    30              -0.0000
+iter:   5  01:02:24  -2.80           -5.260671    31              -0.0000
+iter:   6  01:02:37  -2.49           -5.260688    31              -0.0000
+iter:   7  01:02:53  -0.88           -5.260691    31              -0.0000
+iter:   8  01:03:06  -0.57           -5.260691    29              -0.0000
+iter:   9  01:03:19  -1.32           -5.260691    29              -0.0000
+iter:  10  01:03:29  -1.72           -5.260691    31              -0.0000
+iter:  11  01:03:34  -2.60           -5.260691    31              -0.0000
+iter:  12  01:03:37  -3.23           -5.260691    31              -0.0000
+iter:  13  01:03:40  -4.43           -5.260691    31              -0.0000
+iter:  14  01:03:42  -4.93           -5.260691    31              -0.0000
+iter:  15  01:03:44  -5.32           -5.260691    31              -0.0000
+iter:  16  01:03:46  -5.59           -5.260691    31              -0.0000
+iter:  17  01:03:48  -6.61           -5.260691    31              -0.0000
+iter:  18  01:03:49  -7.27           -5.260691    31              -0.0000
+iter:  19  01:03:51  -7.89           -5.260691    31              -0.0000
+
+Converged after 19 iterations.
+
+Dipole moment: (-2.646299, 1.527841, 0.000000) |e|*Ang
+
+Total magnetic moment: -0.000000
+Local magnetic moments:
+   0 Cd 0.000000
+   1 Cd 0.000000
+
+Energy contributions relative to reference atoms: (reference = -304346.236673)
+
+Kinetic:         +8.444868
+Potential:       -9.001219
+External:        +0.000000
+XC:              -5.183958
+Entropy (-ST):   -0.000601
+Local:           +0.479919
+--------------------------
+Free energy:     -5.260992
+Extrapolated:    -5.260691
+
+Spin contamination: 0.000000 electrons
+Fixed Fermi level: 7.52787
+
+Warning: Showing only first 2 kpts
+                      Up                     Down
+ Kpt  Band  Eigenvalues  Occupancy  Eigenvalues  Occupancy
+  0    10     -0.72186    0.02000     -0.72186    0.02000
+  0    11      4.64866    0.02000      4.64866    0.02000
+  0    12      4.69862    0.02000      4.69862    0.02000
+  0    13     18.04374    0.00000     18.04374    0.00000
+
+  1    10     -0.72167    0.02000     -0.72167    0.02000
+  1    11      4.69349    0.02000      4.69349    0.02000
+  1    12      4.71414    0.02000      4.71414    0.02000
+  1    13     18.08152    0.00000     18.08152    0.00000
+
+
+Timing:                              incl.     excl.
+-----------------------------------------------------------
+Hamiltonian:                         1.103     0.001   0.0% |
+ Atomic:                             0.839     0.003   0.0% |
+  XC Correction:                     0.836     0.836   0.4% |
+ Calculate atomic Hamiltonians:      0.021     0.021   0.0% |
+ Communicate:                        0.000     0.000   0.0% |
+ Initialize Hamiltonian:             0.000     0.000   0.0% |
+ Poisson:                            0.000     0.000   0.0% |
+ XC 3D grid:                         0.241     0.241   0.1% |
+LCAO initialization:                 5.365     0.124   0.1% |
+ LCAO eigensolver:                   1.804     0.018   0.0% |
+  Calculate projections:             0.010     0.010   0.0% |
+  DenseAtomicCorrection:             0.048     0.048   0.0% |
+  Distribute overlap matrix:         0.007     0.007   0.0% |
+  Orbital Layouts:                   0.172     0.172   0.1% |
+  Potential matrix:                  0.638     0.638   0.3% |
+  Sum over cells:                    0.913     0.913   0.4% |
+ LCAO to grid:                       2.454     2.454   1.1% |
+ Set positions (LCAO WFS):           0.983     0.002   0.0% |
+  Basic WFS set positions:           0.001     0.001   0.0% |
+  Basis functions set positions:     0.000     0.000   0.0% |
+  TCI: Calculate S, T, P:            0.979     0.979   0.4% |
+PWDescriptor:                        0.035     0.035   0.0% |
+Redistribute:                        0.000     0.000   0.0% |
+SCF-cycle:                         217.990     7.989   3.5% ||
+ CG:                               127.946   117.334  51.5% |--------------------|
+  CG: orthonormalize:               10.612     5.589   2.5% ||
+   CG: overlap:                      3.145     3.145   1.4% ||
+   CG: overlap2:                     1.879     1.879   0.8% |
+ Davidson:                          36.224    18.070   7.9% |--|
+  calc. matrices:                   12.624    12.624   5.5% |-|
+  diagonalize:                       4.687     4.687   2.1% ||
+  rotate_psi:                        0.844     0.844   0.4% |
+ Density:                            4.816     0.001   0.0% |
+  Atomic density matrices:           0.060     0.060   0.0% |
+  Mix:                               0.270     0.270   0.1% |
+  Multipole moments:                 0.002     0.002   0.0% |
+  Pseudo density:                    4.483     4.375   1.9% ||
+   Symmetrize density:               0.108     0.108   0.0% |
+ Hamiltonian:                        8.912     0.013   0.0% |
+  Atomic:                            7.047     0.023   0.0% |
+   XC Correction:                    7.024     7.024   3.1% ||
+  Calculate atomic Hamiltonians:     0.165     0.165   0.1% |
+  Communicate:                       0.000     0.000   0.0% |
+  Poisson:                           0.005     0.005   0.0% |
+  XC 3D grid:                        1.681     1.681   0.7% |
+ Orthonormalize:                     0.475     0.016   0.0% |
+  Band Layouts:                      0.019     0.004   0.0% |
+   Inverse Cholesky:                 0.015     0.015   0.0% |
+  calc_s_matrix:                     0.060     0.060   0.0% |
+  projections:                       0.333     0.333   0.1% |
+  rotate_psi:                        0.048     0.048   0.0% |
+ Residuals:                          4.237     4.237   1.9% ||
+ Subspace diag:                     27.390     0.486   0.2% |
+  Band Layouts:                      2.309     0.143   0.1% |
+   Diagonalize:                      2.055     2.055   0.9% |
+   Distribute results:               0.111     0.111   0.0% |
+  calc_h_matrix:                    23.181    23.181  10.2% |---|
+  rotate_psi:                        1.414     1.414   0.6% |
+Set symmetry:                        0.025     0.025   0.0% |
+Other:                               3.206     3.206   1.4% ||
+-----------------------------------------------------------
+Total:                                       227.723 100.0%
+
+Date: Fri Feb 12 01:03:52 2021
+element =  Cd
+struct =  hcp
+kpts =  (8,8,4)
+element =  Cd
+configuration =  [Kr] 4d10 5s2 5p0
+valence =  ['4d', '5s']
+occupations =  {'4d': 10, '5s': 2}
+nls =  4d
+rNum =  600
+lmax =  d
+*******************************************
+Starting confinement parameter optimization
+Adjustable parameters and initial values:
+  Cd_4d.r0 : 5.442411
+  Cd_5s.r0 : 5.442411
+  Cd_n.r0 : 8.163617
+*******************************************
+
+OPT_VAL: 5.442411242410353   5.442411242410353   8.16361686361553
+VCONF:
+  Cd_4d : PowerConfinement(r0=5.442411, s=2.000000)
+  Cd_5s : PowerConfinement(r0=5.442411, s=2.000000)
+  Cd_n : PowerConfinement(r0=8.163617, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 5.642411242410353   5.442411242410353   8.16361686361553
+VCONF:
+  Cd_4d : PowerConfinement(r0=5.642411, s=2.000000)
+  Cd_5s : PowerConfinement(r0=5.442411, s=2.000000)
+  Cd_n : PowerConfinement(r0=8.163617, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 5.442411242410353   5.642411242410353   8.16361686361553
+VCONF:
+  Cd_4d : PowerConfinement(r0=5.442411, s=2.000000)
+  Cd_5s : PowerConfinement(r0=5.642411, s=2.000000)
+  Cd_n : PowerConfinement(r0=8.163617, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 5.442411242410353   5.442411242410353   8.36361686361553
+VCONF:
+  Cd_4d : PowerConfinement(r0=5.442411, s=2.000000)
+  Cd_5s : PowerConfinement(r0=5.442411, s=2.000000)
+  Cd_n : PowerConfinement(r0=8.363617, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 5.467411242410353   5.442411242410353   8.16361686361553
+VCONF:
+  Cd_4d : PowerConfinement(r0=5.467411, s=2.000000)
+  Cd_5s : PowerConfinement(r0=5.442411, s=2.000000)
+  Cd_n : PowerConfinement(r0=8.163617, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 5.442411242410353   5.467411242410353   8.16361686361553
+VCONF:
+  Cd_4d : PowerConfinement(r0=5.442411, s=2.000000)
+  Cd_5s : PowerConfinement(r0=5.467411, s=2.000000)
+  Cd_n : PowerConfinement(r0=8.163617, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 5.442411242410353   5.442411242410353   8.18861686361553
+VCONF:
+  Cd_4d : PowerConfinement(r0=5.442411, s=2.000000)
+  Cd_5s : PowerConfinement(r0=5.442411, s=2.000000)
+  Cd_n : PowerConfinement(r0=8.188617, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 5.447411242410353   5.442411242410353   8.16361686361553
+VCONF:
+  Cd_4d : PowerConfinement(r0=5.447411, s=2.000000)
+  Cd_5s : PowerConfinement(r0=5.442411, s=2.000000)
+  Cd_n : PowerConfinement(r0=8.163617, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 5.442411242410353   5.447411242410353   8.16361686361553
+VCONF:
+  Cd_4d : PowerConfinement(r0=5.442411, s=2.000000)
+  Cd_5s : PowerConfinement(r0=5.447411, s=2.000000)
+  Cd_n : PowerConfinement(r0=8.163617, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 5.442411242410353   5.442411242410353   8.168616863615531
+VCONF:
+  Cd_4d : PowerConfinement(r0=5.442411, s=2.000000)
+  Cd_5s : PowerConfinement(r0=5.442411, s=2.000000)
+  Cd_n : PowerConfinement(r0=8.168617, s=2.000000)
+RESIDUAL: 0.0
+
+*******************************************
+Optimization finished after 10 iterations
+Adjustable parameters and final values:
+  Cd_4d.r0 : 5.442411
+  Cd_5s.r0 : 5.442411
+  Cd_n.r0 : 8.163617
+*******************************************
+
+VCONF:
+  Cd_4d : PowerConfinement(r0=5.442411, s=2.000000)
+  Cd_5s : PowerConfinement(r0=5.442411, s=2.000000)
+  Cd_n : PowerConfinement(r0=8.163617, s=2.000000)
