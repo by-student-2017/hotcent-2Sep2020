@@ -11,7 +11,7 @@ import subprocess #python3
 import sys
 import ast
 
-# read cif file
+#read cif file
 import ase.io
 
 element = 'Xx'
@@ -33,19 +33,29 @@ nkpts = elem_list[4]
 print("kpts = ",nkpts)
 kpts = ast.literal_eval(nkpts)
 
+# version 2 file
+#La = float(elem_list[5])
+#print("lattice constant a = ",La)
+#Lb = float(elem_list[6])
+#print("lattice constant b = ",Lb)
+#Lc = float(elem_list[7])
+#print("lattice constant c = ",Lc)
+#Lalpha = float(elem_list[8])
+#print("alpha angle = ",Lalpha)
+
 # First perform a regular SCF run
 calc = GPAW(mode=PW(400),
-            maxiter=200,
-            spinpol=False,
+            maxiter=1500,
+            spinpol=True,
             kpts=kpts,
             xc=xc,
             txt='-',
             occupations=FermiDirac(0.02),
-            mixer=Mixer(0.05, 8, 100),
+            mixer=Mixer(0.01, 11, 100.0),
             )
 
 atoms = ase.io.read("./CIFs/Xx.cif")
-#atoms = bulk(element,struct)
+#atoms = bulk(element,struct,a=La,b=Lb,c=Lc,alpha=Lalpha)
 # sc,fcc,bcc,tetragonal,bct,hcp,rhmbohedral,orthorhombic
 # mlc, diamond,zincblende,rocksalt,cesiumchloride, fluorite, wurtzite
 atoms.set_calculator(calc)

@@ -14,6 +14,9 @@ import subprocess #python3
 import sys
 import ast
 
+#read cif file
+import ase.io
+
 element = 'Xx'
 #elem_data = commands.getoutput("awk '{if($1==\""+str(element)+"\"{print $0}}' gpaw_table") #python2
 elem_data = subprocess.getoutput("awk '{if($1==\""+str(element)+"\"){print $0}}' gpaw_table") #python3
@@ -89,7 +92,8 @@ dpbs = DftbPlusBandStructure(Hamiltonian_SCC='Yes',
                              Hamiltonian_PolynomialRepulsive='SetForAll {Yes}')
 
 bs_gpaw = read_json('bs_gpaw.json')  # the reference band structure (DFT)
-atoms = bulk(element,struct)
+atoms = ase.io.read("./CIFs/Xx.cif")
+#atoms = bulk(element,struct)
 # see hotcent.tools.DftbPlusBandStructure for more information
 # on the various keyword arguments used below
 dpbs.add_reference_bandstructure(bs_gpaw, atoms=atoms, kpts_scf=kpts,
