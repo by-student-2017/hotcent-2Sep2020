@@ -63,9 +63,8 @@ Os | hcp | -4 | GMKGA | (8,8,4)
 Ir | fcc | -4 | GHNGP | (8,8,8)
 Pt | fcc | -4 | GHNGP | (8,8,8)
 Au | fcc | -4 | GHNGP | (8,8,8)
-Hg | rhombohedral | -4 | RGXMG
+Hg | rhombohedral | -4 | RGXMG | (8,8,8)
 Tl | hcp | -4 | GMKGA | (8,8,4)
-Pb | fcc | -4 | GHNGP | (8,8,8)
-Bi | rhombohedral | -4 | RGXMG
+Pb | fcc | -4 | GHNGP | (8,8,8) | (8,8,8)
 Po | sc | -4 | RGXMG | (8,8,8)
 At | fcc | -4 | GHNGP | (8,8,8)
