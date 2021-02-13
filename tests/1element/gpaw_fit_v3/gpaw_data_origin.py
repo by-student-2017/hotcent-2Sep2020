@@ -51,10 +51,11 @@ calc = GPAW(mode=PW(400),
             xc=xc,
             txt='-',
             occupations=FermiDirac(0.02),
-            mixer=Mixer(0.01, 11, 100.0),
+            #mixer=Mixer(0.05, 8, 100),
+            mixer=Mixer(0.05, 5, 50),
             )
 
-atoms = ase.io.read("./CIFs/Xx.cif")
+atoms = ase.io.read("./primCIFs/Xx.cif")
 #atoms = bulk(element,struct,a=La,b=Lb,c=Lc,alpha=Lalpha)
 # sc,fcc,bcc,tetragonal,bct,hcp,rhmbohedral,orthorhombic
 # mlc, diamond,zincblende,rocksalt,cesiumchloride, fluorite, wurtzite

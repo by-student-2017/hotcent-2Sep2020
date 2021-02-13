@@ -92,7 +92,7 @@ dpbs = DftbPlusBandStructure(Hamiltonian_SCC='Yes',
                              Hamiltonian_PolynomialRepulsive='SetForAll {Yes}')
 
 bs_gpaw = read_json('bs_gpaw.json')  # the reference band structure (DFT)
-atoms = ase.io.read("./CIFs/Xx.cif")
+atoms = ase.io.read("./primCIFs/Xx.cif")
 #atoms = bulk(element,struct)
 # see hotcent.tools.DftbPlusBandStructure for more information
 # on the various keyword arguments used below
