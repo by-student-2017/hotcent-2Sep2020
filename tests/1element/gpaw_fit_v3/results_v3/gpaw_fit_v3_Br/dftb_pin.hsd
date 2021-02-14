@@ -1,0 +1,142 @@
+Geometry = GenFormat {
+8  S
+Br
+1      1      0.000000000000000      1.588368707920000      1.058332875320000
+2      1      0.000000000000000      0.525285292080000      5.574946375320001
+3      1      0.000000000000000      3.702022707920000      3.458280624680000
+4      1      0.000000000000000      2.638939292080000      7.974894124680000
+5      1      4.114298500000000      3.702022707920000      1.058332875320000
+6      1      4.114298500000000      2.638939292080000      5.574946375320001
+7      1      4.114298500000000      1.588368707920000      3.458280624680000
+8      1      4.114298500000000      0.525285292080000      7.974894124680000
+0.000000000000000      0.000000000000000      0.000000000000000
+8.228597000000001      0.000000000000000      0.000000000000000
+0.000000000000000      4.227308000000000      0.000000000000000
+0.000000000000000      0.000000000000000      9.033227000000000
+}
+Hamiltonian = DFTB {
+  KPointsAndWeights = {
+0.0 0.0 0.0 1.0
+0.0 -0.1 0.0 1.0
+0.0 -0.2 0.0 1.0
+0.0 -0.30000000000000004 0.0 1.0
+0.0 -0.4 0.0 1.0
+0.0 -0.5 0.0 1.0
+-0.25 -0.5 0.0 1.0
+-0.5 -0.5 0.0 1.0
+-0.5 -0.4166666666666667 0.0 1.0
+-0.5 -0.33333333333333337 0.0 1.0
+-0.5 -0.25 0.0 1.0
+-0.5 -0.16666666666666669 0.0 1.0
+-0.5 -0.08333333333333337 0.0 1.0
+-0.5 0.0 0.0 1.0
+-0.33333333333333337 0.0 0.0 1.0
+-0.16666666666666669 0.0 0.0 1.0
+0.0 0.0 0.0 1.0
+0.0 0.0 -0.25 1.0
+0.0 0.0 -0.5 1.0
+0.0 -0.08333333333333333 -0.5 1.0
+0.0 -0.16666666666666666 -0.5 1.0
+0.0 -0.25 -0.5 1.0
+0.0 -0.3333333333333333 -0.5 1.0
+0.0 -0.41666666666666663 -0.5 1.0
+0.0 -0.5 -0.5 1.0
+-0.16666666666666666 -0.5 -0.5 1.0
+-0.3333333333333333 -0.5 -0.5 1.0
+-0.5 -0.5 -0.5 1.0
+-0.5 -0.4285714285714286 -0.5 1.0
+-0.5 -0.35714285714285715 -0.5 1.0
+-0.5 -0.2857142857142857 -0.5 1.0
+-0.5 -0.2142857142857143 -0.5 1.0
+-0.5 -0.1428571428571429 -0.5 1.0
+-0.5 -0.07142857142857145 -0.5 1.0
+-0.5 0.0 -0.5 1.0
+-0.33333333333333337 0.0 -0.5 1.0
+-0.16666666666666669 0.0 -0.5 1.0
+0.0 0.0 -0.5 1.0
+-0.5 0.0 0.0 1.0
+-0.5 0.0 -0.16666666666666666 1.0
+-0.5 0.0 -0.3333333333333333 1.0
+-0.5 0.0 -0.5 1.0
+0.0 -0.5 -0.5 1.0
+0.0 -0.5 -0.33333333333333337 1.0
+0.0 -0.5 -0.16666666666666669 1.0
+0.0 -0.5 0.0 1.0
+-0.5 -0.5 0.0 1.0
+-0.5 -0.5 -0.16666666666666666 1.0
+-0.5 -0.5 -0.3333333333333333 1.0
+-0.5 -0.5 -0.5 1.0
+  }
+  MaxAngularMomentum = {
+    Br = d
+  }
+  MaxSCCIterations = 1
+  OrbitalResolvedSCC = No
+  PolynomialRepulsive = SetForAll {
+Yes
+  }
+  ReadInitialCharges = Yes
+  SCC = Yes
+  SCCTolerance = 1000000.0
+  SlaterKosterFiles = Type2FileNames {
+    Prefix = /home/inukai/tango/tests/1element/gpaw_fit_v3_Br/
+    Separator = "-"
+    Suffix = ".skf"
+    LowerCaseTypeName = No
+  }
+  OldSKInterpolation = No
+  Mixer = Broyden {
+    MixingParameter = 0.20000000000000001
+    CachedIterations = -1
+    InverseJacobiWeight = 1.0000000000000000E-002
+    MinimalWeight = 1.0000000000000000
+    MaximalWeight = 100000.00000000000
+    WeightFactor = 1.0000000000000000E-002
+  }
+  DampXH = No
+  EwaldParameter = 0.0000000000000000
+  SpinPolarisation = {}
+  ElectricField = {}
+  Eigensolver = RelativelyRobust {}
+  Filling = Fermi {
+    Temperature = 0.0000000000000000
+    IndependentKFilling = No
+  }
+  Charge = 0.0000000000000000
+  Dispersion = {}
+  ThirdOrder = No
+  ThirdOrderFull = No
+  Differentiation = FiniteDiff {
+    Delta = 1.2207031250000000E-004
+  }
+  ForceEvaluation = "Traditional"
+}
+Options = {
+  WriteResultsTag = Yes
+  WriteAutotestTag = No
+  WriteDetailedXML = No
+  WriteDetailedOut = Yes
+  RestartFrequency = 20
+  RandomSeed = 0
+  WriteHS = No
+  WriteRealHS = No
+  MinimiseMemoryUsage = No
+  ShowFoldedCoords = No
+}
+ParserOptions = {
+  IgnoreUnprocessedNodes = Yes
+  ParserVersion = 5
+  WriteHSDInput = Yes
+  WriteXMLInput = No
+  StopAfterParsing = No
+}
+Driver = {}
+ExcitedState = {}
+Analysis = {
+  ProjectStates = {}
+  MullikenAnalysis = Yes
+  AtomResolvedEnergies = No
+  WriteEigenvectors = No
+  WriteBandOut = Yes
+  CalculateForces = No
+}

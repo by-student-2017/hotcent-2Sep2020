@@ -1,0 +1,142 @@
+Geometry = GenFormat {
+8  S
+Ga
+1      1      0.000000000000000      5.089419216740000      2.673390973600000
+2      1      0.000000000000000      6.540526283260000      0.373501973600000
+3      1      0.000000000000000      1.212770716740000      4.226276026400000
+4      1      0.000000000000000      2.663877783260000      1.926387026400000
+5      1      2.283444000000000      1.212770716740000      2.673390973600000
+6      1      2.283444000000000      2.663877783260000      0.373501973600000
+7      1      2.283444000000000      5.089419216740000      4.226276026400000
+8      1      2.283444000000000      6.540526283260000      1.926387026400000
+0.000000000000000      0.000000000000000      0.000000000000000
+4.566888000000000      0.000000000000000      0.000000000000000
+0.000000000000000      7.753297000000000      0.000000000000000
+0.000000000000000      0.000000000000000      4.599778000000000
+}
+Hamiltonian = DFTB {
+  KPointsAndWeights = {
+0.0 0.0 0.0 1.0
+-0.125 0.0 0.0 1.0
+-0.25 0.0 0.0 1.0
+-0.375 0.0 0.0 1.0
+-0.5 0.0 0.0 1.0
+-0.5 0.0 -0.125 1.0
+-0.5 0.0 -0.25 1.0
+-0.5 0.0 -0.375 1.0
+-0.5 0.0 -0.5 1.0
+-0.375 0.0 -0.5 1.0
+-0.25 0.0 -0.5 1.0
+-0.125 0.0 -0.5 1.0
+0.0 0.0 -0.5 1.0
+0.0 0.0 -0.375 1.0
+0.0 0.0 -0.25 1.0
+0.0 0.0 -0.125 1.0
+0.0 0.0 0.0 1.0
+0.0 -0.25 0.0 1.0
+0.0 -0.5 0.0 1.0
+-0.1 -0.5 0.0 1.0
+-0.2 -0.5 0.0 1.0
+-0.30000000000000004 -0.5 0.0 1.0
+-0.4 -0.5 0.0 1.0
+-0.5 -0.5 0.0 1.0
+-0.5 -0.5 -0.1 1.0
+-0.5 -0.5 -0.2 1.0
+-0.5 -0.5 -0.30000000000000004 1.0
+-0.5 -0.5 -0.4 1.0
+-0.5 -0.5 -0.5 1.0
+-0.4 -0.5 -0.5 1.0
+-0.3 -0.5 -0.5 1.0
+-0.19999999999999996 -0.5 -0.5 1.0
+-0.09999999999999998 -0.5 -0.5 1.0
+0.0 -0.5 -0.5 1.0
+0.0 -0.5 -0.4 1.0
+0.0 -0.5 -0.3 1.0
+0.0 -0.5 -0.19999999999999996 1.0
+0.0 -0.5 -0.09999999999999998 1.0
+0.0 -0.5 0.0 1.0
+0.0 0.0 -0.5 1.0
+0.0 -0.16666666666666666 -0.5 1.0
+0.0 -0.3333333333333333 -0.5 1.0
+0.0 -0.5 -0.5 1.0
+-0.5 -0.5 0.0 1.0
+-0.5 -0.25 0.0 1.0
+-0.5 0.0 0.0 1.0
+-0.5 0.0 -0.5 1.0
+-0.5 -0.16666666666666666 -0.5 1.0
+-0.5 -0.3333333333333333 -0.5 1.0
+-0.5 -0.5 -0.5 1.0
+  }
+  MaxAngularMomentum = {
+    Ga = d
+  }
+  MaxSCCIterations = 1
+  OrbitalResolvedSCC = No
+  PolynomialRepulsive = SetForAll {
+Yes
+  }
+  ReadInitialCharges = Yes
+  SCC = Yes
+  SCCTolerance = 1000000.0
+  SlaterKosterFiles = Type2FileNames {
+    Prefix = /home/inukai/tango/tests/1element/gpaw_fit_v3_Ga/
+    Separator = "-"
+    Suffix = ".skf"
+    LowerCaseTypeName = No
+  }
+  OldSKInterpolation = No
+  Mixer = Broyden {
+    MixingParameter = 0.20000000000000001
+    CachedIterations = -1
+    InverseJacobiWeight = 1.0000000000000000E-002
+    MinimalWeight = 1.0000000000000000
+    MaximalWeight = 100000.00000000000
+    WeightFactor = 1.0000000000000000E-002
+  }
+  DampXH = No
+  EwaldParameter = 0.0000000000000000
+  SpinPolarisation = {}
+  ElectricField = {}
+  Eigensolver = RelativelyRobust {}
+  Filling = Fermi {
+    Temperature = 0.0000000000000000
+    IndependentKFilling = No
+  }
+  Charge = 0.0000000000000000
+  Dispersion = {}
+  ThirdOrder = No
+  ThirdOrderFull = No
+  Differentiation = FiniteDiff {
+    Delta = 1.2207031250000000E-004
+  }
+  ForceEvaluation = "Traditional"
+}
+Options = {
+  WriteResultsTag = Yes
+  WriteAutotestTag = No
+  WriteDetailedXML = No
+  WriteDetailedOut = Yes
+  RestartFrequency = 20
+  RandomSeed = 0
+  WriteHS = No
+  WriteRealHS = No
+  MinimiseMemoryUsage = No
+  ShowFoldedCoords = No
+}
+ParserOptions = {
+  IgnoreUnprocessedNodes = Yes
+  ParserVersion = 5
+  WriteHSDInput = Yes
+  WriteXMLInput = No
+  StopAfterParsing = No
+}
+Driver = {}
+ExcitedState = {}
+Analysis = {
+  ProjectStates = {}
+  MullikenAnalysis = Yes
+  AtomResolvedEnergies = No
+  WriteEigenvectors = No
+  WriteBandOut = Yes
+  CalculateForces = No
+}

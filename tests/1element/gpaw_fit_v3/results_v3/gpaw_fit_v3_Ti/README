@@ -1,0 +1,8 @@
+
+setup
+1. chmod +x run.sh
+
+run
+1. gedit gpaw_table
+2. gedit table_fit
+3. ./run.sh Si
