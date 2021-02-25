@@ -3,7 +3,7 @@
 mkdir results
 
 # GBRV potentials do not include He, Ne, Ar, Kr and Xe.
-elements="H Li Be B C N O F Na Mg Al Si P S Cl K Ca Sc Ti V Cr Mn Fe Co Ni Cu Zn Ga Ge As Se Br Rb Sr Y Zr Nb Mo Tc Ru Rh Pd Ag Cd In Sn Sb Te I Cs Ba Lu Hf Ta W Re Os Ir Pt Au Hg Tl Pb Bi"
+elements="H Li Be B C N O F Na Mg Al Si S Cl Sc Ti V Cr Fe Co Cu Ga Ge As Se Br Y Zr Nb Mo Rh Pd Ag Cd In Sn Sb Te I Hf Ta Hg Tl Bi"
 
 #elements="H He Li Be B C N O F Ne Na Mg Al Si P S Cl Ar K Ca Sc Ti V Cr Mn Fe Co Ni Cu Zn Ga Ge As Se Br Kr Rb Sr Y Zr Nb Mo Tc Ru Rh Pd Ag Cd In Sn Sb Te I Xe Cs Ba Lu Hf Ta W Re Os Ir Pt Au Hg Tl Pb Bi"
 

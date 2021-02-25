@@ -1,0 +1,146 @@
+element =  Rh
+struct =  fcc
+nbands =  -4
+path =  WLGXWK
+kpts =  (8,8,8)
+lattice constant a =  3.803
+lattice constant b =  3.803
+lattice constant c =  3.803
+alpha angle =  90.0
+element =  Rh
+struct =  fcc
+kpts =  (8,8,8)
+element =  Rh
+configuration =  [Kr] 4d8 5s1 5p0
+valence =  ['4d', '5s', '5p']
+occupations =  {'4d': 8, '5s': 1}
+nls =  4d
+rNum =  600
+lmax =  d
+*******************************************
+Starting confinement parameter optimization
+Adjustable parameters and initial values:
+  Rh_4d.r0 : 5.366822
+  Rh_5p.r0 : 5.366822
+  Rh_5s.r0 : 5.366822
+  Rh_n.r0 : 8.050233
+*******************************************
+
+OPT_VAL: 5.366822197376877   5.366822197376877   5.366822197376877   8.050233296065315
+VCONF:
+  Rh_4d : PowerConfinement(r0=5.366822, s=2.000000)
+  Rh_5p : PowerConfinement(r0=5.366822, s=2.000000)
+  Rh_5s : PowerConfinement(r0=5.366822, s=2.000000)
+  Rh_n : PowerConfinement(r0=8.050233, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 5.566822197376877   5.366822197376877   5.366822197376877   8.050233296065315
+VCONF:
+  Rh_4d : PowerConfinement(r0=5.566822, s=2.000000)
+  Rh_5p : PowerConfinement(r0=5.366822, s=2.000000)
+  Rh_5s : PowerConfinement(r0=5.366822, s=2.000000)
+  Rh_n : PowerConfinement(r0=8.050233, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 5.366822197376877   5.566822197376877   5.366822197376877   8.050233296065315
+VCONF:
+  Rh_4d : PowerConfinement(r0=5.366822, s=2.000000)
+  Rh_5p : PowerConfinement(r0=5.566822, s=2.000000)
+  Rh_5s : PowerConfinement(r0=5.366822, s=2.000000)
+  Rh_n : PowerConfinement(r0=8.050233, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 5.366822197376877   5.366822197376877   5.566822197376877   8.050233296065315
+VCONF:
+  Rh_4d : PowerConfinement(r0=5.366822, s=2.000000)
+  Rh_5p : PowerConfinement(r0=5.366822, s=2.000000)
+  Rh_5s : PowerConfinement(r0=5.566822, s=2.000000)
+  Rh_n : PowerConfinement(r0=8.050233, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 5.366822197376877   5.366822197376877   5.366822197376877   8.250233296065314
+VCONF:
+  Rh_4d : PowerConfinement(r0=5.366822, s=2.000000)
+  Rh_5p : PowerConfinement(r0=5.366822, s=2.000000)
+  Rh_5s : PowerConfinement(r0=5.366822, s=2.000000)
+  Rh_n : PowerConfinement(r0=8.250233, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 5.391822197376877   5.366822197376877   5.366822197376877   8.050233296065315
+VCONF:
+  Rh_4d : PowerConfinement(r0=5.391822, s=2.000000)
+  Rh_5p : PowerConfinement(r0=5.366822, s=2.000000)
+  Rh_5s : PowerConfinement(r0=5.366822, s=2.000000)
+  Rh_n : PowerConfinement(r0=8.050233, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 5.366822197376877   5.391822197376877   5.366822197376877   8.050233296065315
+VCONF:
+  Rh_4d : PowerConfinement(r0=5.366822, s=2.000000)
+  Rh_5p : PowerConfinement(r0=5.391822, s=2.000000)
+  Rh_5s : PowerConfinement(r0=5.366822, s=2.000000)
+  Rh_n : PowerConfinement(r0=8.050233, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 5.366822197376877   5.366822197376877   5.391822197376877   8.050233296065315
+VCONF:
+  Rh_4d : PowerConfinement(r0=5.366822, s=2.000000)
+  Rh_5p : PowerConfinement(r0=5.366822, s=2.000000)
+  Rh_5s : PowerConfinement(r0=5.391822, s=2.000000)
+  Rh_n : PowerConfinement(r0=8.050233, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 5.366822197376877   5.366822197376877   5.366822197376877   8.075233296065315
+VCONF:
+  Rh_4d : PowerConfinement(r0=5.366822, s=2.000000)
+  Rh_5p : PowerConfinement(r0=5.366822, s=2.000000)
+  Rh_5s : PowerConfinement(r0=5.366822, s=2.000000)
+  Rh_n : PowerConfinement(r0=8.075233, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 5.3718221973768765   5.366822197376877   5.366822197376877   8.050233296065315
+VCONF:
+  Rh_4d : PowerConfinement(r0=5.371822, s=2.000000)
+  Rh_5p : PowerConfinement(r0=5.366822, s=2.000000)
+  Rh_5s : PowerConfinement(r0=5.366822, s=2.000000)
+  Rh_n : PowerConfinement(r0=8.050233, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 5.366822197376877   5.3718221973768765   5.366822197376877   8.050233296065315
+VCONF:
+  Rh_4d : PowerConfinement(r0=5.366822, s=2.000000)
+  Rh_5p : PowerConfinement(r0=5.371822, s=2.000000)
+  Rh_5s : PowerConfinement(r0=5.366822, s=2.000000)
+  Rh_n : PowerConfinement(r0=8.050233, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 5.366822197376877   5.366822197376877   5.3718221973768765   8.050233296065315
+VCONF:
+  Rh_4d : PowerConfinement(r0=5.366822, s=2.000000)
+  Rh_5p : PowerConfinement(r0=5.366822, s=2.000000)
+  Rh_5s : PowerConfinement(r0=5.371822, s=2.000000)
+  Rh_n : PowerConfinement(r0=8.050233, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 5.366822197376877   5.366822197376877   5.366822197376877   8.055233296065316
+VCONF:
+  Rh_4d : PowerConfinement(r0=5.366822, s=2.000000)
+  Rh_5p : PowerConfinement(r0=5.366822, s=2.000000)
+  Rh_5s : PowerConfinement(r0=5.366822, s=2.000000)
+  Rh_n : PowerConfinement(r0=8.055233, s=2.000000)
+RESIDUAL: 0.0
+
+*******************************************
+Optimization finished after 13 iterations
+Adjustable parameters and final values:
+  Rh_4d.r0 : 5.366822
+  Rh_5p.r0 : 5.366822
+  Rh_5s.r0 : 5.366822
+  Rh_n.r0 : 8.050233
+*******************************************
+
+VCONF:
+  Rh_4d : PowerConfinement(r0=5.366822, s=2.000000)
+  Rh_5p : PowerConfinement(r0=5.366822, s=2.000000)
+  Rh_5s : PowerConfinement(r0=5.366822, s=2.000000)
+  Rh_n : PowerConfinement(r0=8.050233, s=2.000000)

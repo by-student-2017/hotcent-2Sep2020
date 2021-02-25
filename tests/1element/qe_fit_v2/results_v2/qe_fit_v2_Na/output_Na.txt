@@ -1,0 +1,109 @@
+element =  Na
+struct =  bcc
+nbands =  -4
+path =  GHNGP
+kpts =  (8,8,8)
+lattice constant a =  4.291
+lattice constant b =  4.291
+lattice constant c =  4.291
+alpha angle =  90.0
+element =  Na
+struct =  bcc
+kpts =  (8,8,8)
+element =  Na
+configuration =  [Ne] 3s1 3p0
+valence =  ['3s', '3p']
+occupations =  {'2s': 1, '3p': 0}
+nls =  3s
+rNum =  600
+lmax =  p
+*******************************************
+Starting confinement parameter optimization
+Adjustable parameters and initial values:
+  Na_3p.r0 : 6.273891
+  Na_3s.r0 : 6.273891
+  Na_n.r0 : 9.410836
+*******************************************
+
+OPT_VAL: 6.2738907377786015   6.2738907377786015   9.410836106667903
+VCONF:
+  Na_3p : PowerConfinement(r0=6.273891, s=2.000000)
+  Na_3s : PowerConfinement(r0=6.273891, s=2.000000)
+  Na_n : PowerConfinement(r0=9.410836, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 6.473890737778602   6.2738907377786015   9.410836106667903
+VCONF:
+  Na_3p : PowerConfinement(r0=6.473891, s=2.000000)
+  Na_3s : PowerConfinement(r0=6.273891, s=2.000000)
+  Na_n : PowerConfinement(r0=9.410836, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 6.2738907377786015   6.473890737778602   9.410836106667903
+VCONF:
+  Na_3p : PowerConfinement(r0=6.273891, s=2.000000)
+  Na_3s : PowerConfinement(r0=6.473891, s=2.000000)
+  Na_n : PowerConfinement(r0=9.410836, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 6.2738907377786015   6.2738907377786015   9.610836106667902
+VCONF:
+  Na_3p : PowerConfinement(r0=6.273891, s=2.000000)
+  Na_3s : PowerConfinement(r0=6.273891, s=2.000000)
+  Na_n : PowerConfinement(r0=9.610836, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 6.298890737778602   6.2738907377786015   9.410836106667903
+VCONF:
+  Na_3p : PowerConfinement(r0=6.298891, s=2.000000)
+  Na_3s : PowerConfinement(r0=6.273891, s=2.000000)
+  Na_n : PowerConfinement(r0=9.410836, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 6.2738907377786015   6.298890737778602   9.410836106667903
+VCONF:
+  Na_3p : PowerConfinement(r0=6.273891, s=2.000000)
+  Na_3s : PowerConfinement(r0=6.298891, s=2.000000)
+  Na_n : PowerConfinement(r0=9.410836, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 6.2738907377786015   6.2738907377786015   9.435836106667903
+VCONF:
+  Na_3p : PowerConfinement(r0=6.273891, s=2.000000)
+  Na_3s : PowerConfinement(r0=6.273891, s=2.000000)
+  Na_n : PowerConfinement(r0=9.435836, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 6.278890737778601   6.2738907377786015   9.410836106667903
+VCONF:
+  Na_3p : PowerConfinement(r0=6.278891, s=2.000000)
+  Na_3s : PowerConfinement(r0=6.273891, s=2.000000)
+  Na_n : PowerConfinement(r0=9.410836, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 6.2738907377786015   6.278890737778601   9.410836106667903
+VCONF:
+  Na_3p : PowerConfinement(r0=6.273891, s=2.000000)
+  Na_3s : PowerConfinement(r0=6.278891, s=2.000000)
+  Na_n : PowerConfinement(r0=9.410836, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 6.2738907377786015   6.2738907377786015   9.415836106667903
+VCONF:
+  Na_3p : PowerConfinement(r0=6.273891, s=2.000000)
+  Na_3s : PowerConfinement(r0=6.273891, s=2.000000)
+  Na_n : PowerConfinement(r0=9.415836, s=2.000000)
+RESIDUAL: 0.0
+
+*******************************************
+Optimization finished after 10 iterations
+Adjustable parameters and final values:
+  Na_3p.r0 : 6.273891
+  Na_3s.r0 : 6.273891
+  Na_n.r0 : 9.410836
+*******************************************
+
+VCONF:
+  Na_3p : PowerConfinement(r0=6.273891, s=2.000000)
+  Na_3s : PowerConfinement(r0=6.273891, s=2.000000)
+  Na_n : PowerConfinement(r0=9.410836, s=2.000000)

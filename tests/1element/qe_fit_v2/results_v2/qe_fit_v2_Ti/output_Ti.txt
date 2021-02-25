@@ -1,0 +1,146 @@
+element =  Ti
+struct =  hcp
+nbands =  -4
+path =  GMKGA
+kpts =  (8,8,4)
+lattice constant a =  2.951
+lattice constant b =  2.951
+lattice constant c =  4.686
+alpha angle =  90.0
+element =  Ti
+struct =  hcp
+kpts =  (8,8,4)
+element =  Ti
+configuration =  [Ar] 3d2 4s2 4p0
+valence =  ['3d', '4s', '4p']
+occupations =  {'3d': 2, '4s': 2, '4p': 0}
+nls =  3d
+rNum =  600
+lmax =  d
+*******************************************
+Starting confinement parameter optimization
+Adjustable parameters and initial values:
+  Ti_3d.r0 : 6.047124
+  Ti_4p.r0 : 6.047124
+  Ti_4s.r0 : 6.047124
+  Ti_n.r0 : 9.070685
+*******************************************
+
+OPT_VAL: 6.047123602678171   6.047123602678171   6.047123602678171   9.070685404017258
+VCONF:
+  Ti_3d : PowerConfinement(r0=6.047124, s=2.000000)
+  Ti_4p : PowerConfinement(r0=6.047124, s=2.000000)
+  Ti_4s : PowerConfinement(r0=6.047124, s=2.000000)
+  Ti_n : PowerConfinement(r0=9.070685, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 6.247123602678172   6.047123602678171   6.047123602678171   9.070685404017258
+VCONF:
+  Ti_3d : PowerConfinement(r0=6.247124, s=2.000000)
+  Ti_4p : PowerConfinement(r0=6.047124, s=2.000000)
+  Ti_4s : PowerConfinement(r0=6.047124, s=2.000000)
+  Ti_n : PowerConfinement(r0=9.070685, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 6.047123602678171   6.247123602678172   6.047123602678171   9.070685404017258
+VCONF:
+  Ti_3d : PowerConfinement(r0=6.047124, s=2.000000)
+  Ti_4p : PowerConfinement(r0=6.247124, s=2.000000)
+  Ti_4s : PowerConfinement(r0=6.047124, s=2.000000)
+  Ti_n : PowerConfinement(r0=9.070685, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 6.047123602678171   6.047123602678171   6.247123602678172   9.070685404017258
+VCONF:
+  Ti_3d : PowerConfinement(r0=6.047124, s=2.000000)
+  Ti_4p : PowerConfinement(r0=6.047124, s=2.000000)
+  Ti_4s : PowerConfinement(r0=6.247124, s=2.000000)
+  Ti_n : PowerConfinement(r0=9.070685, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 6.047123602678171   6.047123602678171   6.047123602678171   9.270685404017257
+VCONF:
+  Ti_3d : PowerConfinement(r0=6.047124, s=2.000000)
+  Ti_4p : PowerConfinement(r0=6.047124, s=2.000000)
+  Ti_4s : PowerConfinement(r0=6.047124, s=2.000000)
+  Ti_n : PowerConfinement(r0=9.270685, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 6.072123602678172   6.047123602678171   6.047123602678171   9.070685404017258
+VCONF:
+  Ti_3d : PowerConfinement(r0=6.072124, s=2.000000)
+  Ti_4p : PowerConfinement(r0=6.047124, s=2.000000)
+  Ti_4s : PowerConfinement(r0=6.047124, s=2.000000)
+  Ti_n : PowerConfinement(r0=9.070685, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 6.047123602678171   6.072123602678172   6.047123602678171   9.070685404017258
+VCONF:
+  Ti_3d : PowerConfinement(r0=6.047124, s=2.000000)
+  Ti_4p : PowerConfinement(r0=6.072124, s=2.000000)
+  Ti_4s : PowerConfinement(r0=6.047124, s=2.000000)
+  Ti_n : PowerConfinement(r0=9.070685, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 6.047123602678171   6.047123602678171   6.072123602678172   9.070685404017258
+VCONF:
+  Ti_3d : PowerConfinement(r0=6.047124, s=2.000000)
+  Ti_4p : PowerConfinement(r0=6.047124, s=2.000000)
+  Ti_4s : PowerConfinement(r0=6.072124, s=2.000000)
+  Ti_n : PowerConfinement(r0=9.070685, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 6.047123602678171   6.047123602678171   6.047123602678171   9.095685404017258
+VCONF:
+  Ti_3d : PowerConfinement(r0=6.047124, s=2.000000)
+  Ti_4p : PowerConfinement(r0=6.047124, s=2.000000)
+  Ti_4s : PowerConfinement(r0=6.047124, s=2.000000)
+  Ti_n : PowerConfinement(r0=9.095685, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 6.052123602678171   6.047123602678171   6.047123602678171   9.070685404017258
+VCONF:
+  Ti_3d : PowerConfinement(r0=6.052124, s=2.000000)
+  Ti_4p : PowerConfinement(r0=6.047124, s=2.000000)
+  Ti_4s : PowerConfinement(r0=6.047124, s=2.000000)
+  Ti_n : PowerConfinement(r0=9.070685, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 6.047123602678171   6.052123602678171   6.047123602678171   9.070685404017258
+VCONF:
+  Ti_3d : PowerConfinement(r0=6.047124, s=2.000000)
+  Ti_4p : PowerConfinement(r0=6.052124, s=2.000000)
+  Ti_4s : PowerConfinement(r0=6.047124, s=2.000000)
+  Ti_n : PowerConfinement(r0=9.070685, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 6.047123602678171   6.047123602678171   6.052123602678171   9.070685404017258
+VCONF:
+  Ti_3d : PowerConfinement(r0=6.047124, s=2.000000)
+  Ti_4p : PowerConfinement(r0=6.047124, s=2.000000)
+  Ti_4s : PowerConfinement(r0=6.052124, s=2.000000)
+  Ti_n : PowerConfinement(r0=9.070685, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 6.047123602678171   6.047123602678171   6.047123602678171   9.075685404017259
+VCONF:
+  Ti_3d : PowerConfinement(r0=6.047124, s=2.000000)
+  Ti_4p : PowerConfinement(r0=6.047124, s=2.000000)
+  Ti_4s : PowerConfinement(r0=6.047124, s=2.000000)
+  Ti_n : PowerConfinement(r0=9.075685, s=2.000000)
+RESIDUAL: 0.0
+
+*******************************************
+Optimization finished after 13 iterations
+Adjustable parameters and final values:
+  Ti_3d.r0 : 6.047124
+  Ti_4p.r0 : 6.047124
+  Ti_4s.r0 : 6.047124
+  Ti_n.r0 : 9.070685
+*******************************************
+
+VCONF:
+  Ti_3d : PowerConfinement(r0=6.047124, s=2.000000)
+  Ti_4p : PowerConfinement(r0=6.047124, s=2.000000)
+  Ti_4s : PowerConfinement(r0=6.047124, s=2.000000)
+  Ti_n : PowerConfinement(r0=9.070685, s=2.000000)

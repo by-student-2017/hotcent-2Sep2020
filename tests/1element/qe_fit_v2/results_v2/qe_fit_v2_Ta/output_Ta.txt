@@ -1,0 +1,146 @@
+element =  Ta
+struct =  bcc
+nbands =  -4
+path =  GHNGP
+kpts =  (8,8,8)
+lattice constant a =  3.301
+lattice constant b =  3.301
+lattice constant c =  3.301
+alpha angle =  90.0
+element =  Ta
+struct =  bcc
+kpts =  (8,8,8)
+element =  Ta
+configuration =  [Xe] 5d3 6s2 6p0
+valence =  ['5d', '6s', '6p']
+occupations =  {'5d': 3, '6s': 2, '6p': 0}
+nls =  5d
+rNum =  600
+lmax =  f
+*******************************************
+Starting confinement parameter optimization
+Adjustable parameters and initial values:
+  Ta_5d.r0 : 6.425069
+  Ta_6p.r0 : 6.425069
+  Ta_6s.r0 : 6.425069
+  Ta_n.r0 : 9.637603
+*******************************************
+
+OPT_VAL: 6.425068827845556   6.425068827845556   6.425068827845556   9.637603241768334
+VCONF:
+  Ta_5d : PowerConfinement(r0=6.425069, s=2.000000)
+  Ta_6p : PowerConfinement(r0=6.425069, s=2.000000)
+  Ta_6s : PowerConfinement(r0=6.425069, s=2.000000)
+  Ta_n : PowerConfinement(r0=9.637603, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 6.625068827845556   6.425068827845556   6.425068827845556   9.637603241768334
+VCONF:
+  Ta_5d : PowerConfinement(r0=6.625069, s=2.000000)
+  Ta_6p : PowerConfinement(r0=6.425069, s=2.000000)
+  Ta_6s : PowerConfinement(r0=6.425069, s=2.000000)
+  Ta_n : PowerConfinement(r0=9.637603, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 6.425068827845556   6.625068827845556   6.425068827845556   9.637603241768334
+VCONF:
+  Ta_5d : PowerConfinement(r0=6.425069, s=2.000000)
+  Ta_6p : PowerConfinement(r0=6.625069, s=2.000000)
+  Ta_6s : PowerConfinement(r0=6.425069, s=2.000000)
+  Ta_n : PowerConfinement(r0=9.637603, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 6.425068827845556   6.425068827845556   6.625068827845556   9.637603241768334
+VCONF:
+  Ta_5d : PowerConfinement(r0=6.425069, s=2.000000)
+  Ta_6p : PowerConfinement(r0=6.425069, s=2.000000)
+  Ta_6s : PowerConfinement(r0=6.625069, s=2.000000)
+  Ta_n : PowerConfinement(r0=9.637603, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 6.425068827845556   6.425068827845556   6.425068827845556   9.837603241768333
+VCONF:
+  Ta_5d : PowerConfinement(r0=6.425069, s=2.000000)
+  Ta_6p : PowerConfinement(r0=6.425069, s=2.000000)
+  Ta_6s : PowerConfinement(r0=6.425069, s=2.000000)
+  Ta_n : PowerConfinement(r0=9.837603, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 6.4500688278455565   6.425068827845556   6.425068827845556   9.637603241768334
+VCONF:
+  Ta_5d : PowerConfinement(r0=6.450069, s=2.000000)
+  Ta_6p : PowerConfinement(r0=6.425069, s=2.000000)
+  Ta_6s : PowerConfinement(r0=6.425069, s=2.000000)
+  Ta_n : PowerConfinement(r0=9.637603, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 6.425068827845556   6.4500688278455565   6.425068827845556   9.637603241768334
+VCONF:
+  Ta_5d : PowerConfinement(r0=6.425069, s=2.000000)
+  Ta_6p : PowerConfinement(r0=6.450069, s=2.000000)
+  Ta_6s : PowerConfinement(r0=6.425069, s=2.000000)
+  Ta_n : PowerConfinement(r0=9.637603, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 6.425068827845556   6.425068827845556   6.4500688278455565   9.637603241768334
+VCONF:
+  Ta_5d : PowerConfinement(r0=6.425069, s=2.000000)
+  Ta_6p : PowerConfinement(r0=6.425069, s=2.000000)
+  Ta_6s : PowerConfinement(r0=6.450069, s=2.000000)
+  Ta_n : PowerConfinement(r0=9.637603, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 6.425068827845556   6.425068827845556   6.425068827845556   9.662603241768334
+VCONF:
+  Ta_5d : PowerConfinement(r0=6.425069, s=2.000000)
+  Ta_6p : PowerConfinement(r0=6.425069, s=2.000000)
+  Ta_6s : PowerConfinement(r0=6.425069, s=2.000000)
+  Ta_n : PowerConfinement(r0=9.662603, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 6.430068827845556   6.425068827845556   6.425068827845556   9.637603241768334
+VCONF:
+  Ta_5d : PowerConfinement(r0=6.430069, s=2.000000)
+  Ta_6p : PowerConfinement(r0=6.425069, s=2.000000)
+  Ta_6s : PowerConfinement(r0=6.425069, s=2.000000)
+  Ta_n : PowerConfinement(r0=9.637603, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 6.425068827845556   6.430068827845556   6.425068827845556   9.637603241768334
+VCONF:
+  Ta_5d : PowerConfinement(r0=6.425069, s=2.000000)
+  Ta_6p : PowerConfinement(r0=6.430069, s=2.000000)
+  Ta_6s : PowerConfinement(r0=6.425069, s=2.000000)
+  Ta_n : PowerConfinement(r0=9.637603, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 6.425068827845556   6.425068827845556   6.430068827845556   9.637603241768334
+VCONF:
+  Ta_5d : PowerConfinement(r0=6.425069, s=2.000000)
+  Ta_6p : PowerConfinement(r0=6.425069, s=2.000000)
+  Ta_6s : PowerConfinement(r0=6.430069, s=2.000000)
+  Ta_n : PowerConfinement(r0=9.637603, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 6.425068827845556   6.425068827845556   6.425068827845556   9.642603241768334
+VCONF:
+  Ta_5d : PowerConfinement(r0=6.425069, s=2.000000)
+  Ta_6p : PowerConfinement(r0=6.425069, s=2.000000)
+  Ta_6s : PowerConfinement(r0=6.425069, s=2.000000)
+  Ta_n : PowerConfinement(r0=9.642603, s=2.000000)
+RESIDUAL: 0.0
+
+*******************************************
+Optimization finished after 13 iterations
+Adjustable parameters and final values:
+  Ta_5d.r0 : 6.425069
+  Ta_6p.r0 : 6.425069
+  Ta_6s.r0 : 6.425069
+  Ta_n.r0 : 9.637603
+*******************************************
+
+VCONF:
+  Ta_5d : PowerConfinement(r0=6.425069, s=2.000000)
+  Ta_6p : PowerConfinement(r0=6.425069, s=2.000000)
+  Ta_6s : PowerConfinement(r0=6.425069, s=2.000000)
+  Ta_n : PowerConfinement(r0=9.637603, s=2.000000)

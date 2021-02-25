@@ -1,0 +1,146 @@
+element =  Ga
+struct =  bcc
+nbands =  -4
+path =  GHNGP
+kpts =  (8,8,8)
+lattice constant a =  3.376
+lattice constant b =  3.376
+lattice constant c =  3.376
+alpha angle =  90.0
+element =  Ga
+struct =  bcc
+kpts =  (8,8,8)
+element =  Ga
+configuration =  [Ar] 3d10 4s2 4p1 4d0
+valence =  ['4s', '4p', '4d']
+occupations =  {'4s': 2, '4p': 1, '4d': 0}
+nls =  4p
+rNum =  600
+lmax =  d
+*******************************************
+Starting confinement parameter optimization
+Adjustable parameters and initial values:
+  Ga_4d.r0 : 4.610932
+  Ga_4p.r0 : 4.610932
+  Ga_4s.r0 : 4.610932
+  Ga_n.r0 : 6.916398
+*******************************************
+
+OPT_VAL: 4.610931747042105   4.610931747042105   4.610931747042105   6.916397620563158
+VCONF:
+  Ga_4d : PowerConfinement(r0=4.610932, s=2.000000)
+  Ga_4p : PowerConfinement(r0=4.610932, s=2.000000)
+  Ga_4s : PowerConfinement(r0=4.610932, s=2.000000)
+  Ga_n : PowerConfinement(r0=6.916398, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 4.810931747042106   4.610931747042105   4.610931747042105   6.916397620563158
+VCONF:
+  Ga_4d : PowerConfinement(r0=4.810932, s=2.000000)
+  Ga_4p : PowerConfinement(r0=4.610932, s=2.000000)
+  Ga_4s : PowerConfinement(r0=4.610932, s=2.000000)
+  Ga_n : PowerConfinement(r0=6.916398, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 4.610931747042105   4.810931747042106   4.610931747042105   6.916397620563158
+VCONF:
+  Ga_4d : PowerConfinement(r0=4.610932, s=2.000000)
+  Ga_4p : PowerConfinement(r0=4.810932, s=2.000000)
+  Ga_4s : PowerConfinement(r0=4.610932, s=2.000000)
+  Ga_n : PowerConfinement(r0=6.916398, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 4.610931747042105   4.610931747042105   4.810931747042106   6.916397620563158
+VCONF:
+  Ga_4d : PowerConfinement(r0=4.610932, s=2.000000)
+  Ga_4p : PowerConfinement(r0=4.610932, s=2.000000)
+  Ga_4s : PowerConfinement(r0=4.810932, s=2.000000)
+  Ga_n : PowerConfinement(r0=6.916398, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 4.610931747042105   4.610931747042105   4.610931747042105   7.116397620563158
+VCONF:
+  Ga_4d : PowerConfinement(r0=4.610932, s=2.000000)
+  Ga_4p : PowerConfinement(r0=4.610932, s=2.000000)
+  Ga_4s : PowerConfinement(r0=4.610932, s=2.000000)
+  Ga_n : PowerConfinement(r0=7.116398, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 4.635931747042106   4.610931747042105   4.610931747042105   6.916397620563158
+VCONF:
+  Ga_4d : PowerConfinement(r0=4.635932, s=2.000000)
+  Ga_4p : PowerConfinement(r0=4.610932, s=2.000000)
+  Ga_4s : PowerConfinement(r0=4.610932, s=2.000000)
+  Ga_n : PowerConfinement(r0=6.916398, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 4.610931747042105   4.635931747042106   4.610931747042105   6.916397620563158
+VCONF:
+  Ga_4d : PowerConfinement(r0=4.610932, s=2.000000)
+  Ga_4p : PowerConfinement(r0=4.635932, s=2.000000)
+  Ga_4s : PowerConfinement(r0=4.610932, s=2.000000)
+  Ga_n : PowerConfinement(r0=6.916398, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 4.610931747042105   4.610931747042105   4.635931747042106   6.916397620563158
+VCONF:
+  Ga_4d : PowerConfinement(r0=4.610932, s=2.000000)
+  Ga_4p : PowerConfinement(r0=4.610932, s=2.000000)
+  Ga_4s : PowerConfinement(r0=4.635932, s=2.000000)
+  Ga_n : PowerConfinement(r0=6.916398, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 4.610931747042105   4.610931747042105   4.610931747042105   6.9413976205631585
+VCONF:
+  Ga_4d : PowerConfinement(r0=4.610932, s=2.000000)
+  Ga_4p : PowerConfinement(r0=4.610932, s=2.000000)
+  Ga_4s : PowerConfinement(r0=4.610932, s=2.000000)
+  Ga_n : PowerConfinement(r0=6.941398, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 4.615931747042105   4.610931747042105   4.610931747042105   6.916397620563158
+VCONF:
+  Ga_4d : PowerConfinement(r0=4.615932, s=2.000000)
+  Ga_4p : PowerConfinement(r0=4.610932, s=2.000000)
+  Ga_4s : PowerConfinement(r0=4.610932, s=2.000000)
+  Ga_n : PowerConfinement(r0=6.916398, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 4.610931747042105   4.615931747042105   4.610931747042105   6.916397620563158
+VCONF:
+  Ga_4d : PowerConfinement(r0=4.610932, s=2.000000)
+  Ga_4p : PowerConfinement(r0=4.615932, s=2.000000)
+  Ga_4s : PowerConfinement(r0=4.610932, s=2.000000)
+  Ga_n : PowerConfinement(r0=6.916398, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 4.610931747042105   4.610931747042105   4.615931747042105   6.916397620563158
+VCONF:
+  Ga_4d : PowerConfinement(r0=4.610932, s=2.000000)
+  Ga_4p : PowerConfinement(r0=4.610932, s=2.000000)
+  Ga_4s : PowerConfinement(r0=4.615932, s=2.000000)
+  Ga_n : PowerConfinement(r0=6.916398, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 4.610931747042105   4.610931747042105   4.610931747042105   6.921397620563158
+VCONF:
+  Ga_4d : PowerConfinement(r0=4.610932, s=2.000000)
+  Ga_4p : PowerConfinement(r0=4.610932, s=2.000000)
+  Ga_4s : PowerConfinement(r0=4.610932, s=2.000000)
+  Ga_n : PowerConfinement(r0=6.921398, s=2.000000)
+RESIDUAL: 0.0
+
+*******************************************
+Optimization finished after 13 iterations
+Adjustable parameters and final values:
+  Ga_4d.r0 : 4.610932
+  Ga_4p.r0 : 4.610932
+  Ga_4s.r0 : 4.610932
+  Ga_n.r0 : 6.916398
+*******************************************
+
+VCONF:
+  Ga_4d : PowerConfinement(r0=4.610932, s=2.000000)
+  Ga_4p : PowerConfinement(r0=4.610932, s=2.000000)
+  Ga_4s : PowerConfinement(r0=4.610932, s=2.000000)
+  Ga_n : PowerConfinement(r0=6.916398, s=2.000000)

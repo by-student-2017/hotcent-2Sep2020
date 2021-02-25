@@ -1,0 +1,109 @@
+element =  N
+struct =  hcp
+nbands =  -4
+path =  GMKGA
+kpts =  (8,8,4)
+lattice constant a =  3.861
+lattice constant b =  3.861
+lattice constant c =  6.265
+alpha angle =  90.0
+element =  N
+struct =  hcp
+kpts =  (8,8,4)
+element =  N
+configuration =  [He] 2s2 2p3
+valence =  ['2s', '2p']
+occupations =  {'2s': 2, '2p': 3}
+nls =  2p
+rNum =  600
+lmax =  p
+*******************************************
+Starting confinement parameter optimization
+Adjustable parameters and initial values:
+  N_2p.r0 : 2.683411
+  N_2s.r0 : 2.683411
+  N_n.r0 : 4.025117
+*******************************************
+
+OPT_VAL: 2.6834110986884383   2.6834110986884383   4.0251166480326575
+VCONF:
+  N_2p : PowerConfinement(r0=2.683411, s=2.000000)
+  N_2s : PowerConfinement(r0=2.683411, s=2.000000)
+  N_n : PowerConfinement(r0=4.025117, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 2.8834110986884385   2.6834110986884383   4.0251166480326575
+VCONF:
+  N_2p : PowerConfinement(r0=2.883411, s=2.000000)
+  N_2s : PowerConfinement(r0=2.683411, s=2.000000)
+  N_n : PowerConfinement(r0=4.025117, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 2.6834110986884383   2.8834110986884385   4.0251166480326575
+VCONF:
+  N_2p : PowerConfinement(r0=2.683411, s=2.000000)
+  N_2s : PowerConfinement(r0=2.883411, s=2.000000)
+  N_n : PowerConfinement(r0=4.025117, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 2.6834110986884383   2.6834110986884383   4.225116648032658
+VCONF:
+  N_2p : PowerConfinement(r0=2.683411, s=2.000000)
+  N_2s : PowerConfinement(r0=2.683411, s=2.000000)
+  N_n : PowerConfinement(r0=4.225117, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 2.708411098688438   2.6834110986884383   4.0251166480326575
+VCONF:
+  N_2p : PowerConfinement(r0=2.708411, s=2.000000)
+  N_2s : PowerConfinement(r0=2.683411, s=2.000000)
+  N_n : PowerConfinement(r0=4.025117, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 2.6834110986884383   2.708411098688438   4.0251166480326575
+VCONF:
+  N_2p : PowerConfinement(r0=2.683411, s=2.000000)
+  N_2s : PowerConfinement(r0=2.708411, s=2.000000)
+  N_n : PowerConfinement(r0=4.025117, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 2.6834110986884383   2.6834110986884383   4.050116648032658
+VCONF:
+  N_2p : PowerConfinement(r0=2.683411, s=2.000000)
+  N_2s : PowerConfinement(r0=2.683411, s=2.000000)
+  N_n : PowerConfinement(r0=4.050117, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 2.688411098688438   2.6834110986884383   4.0251166480326575
+VCONF:
+  N_2p : PowerConfinement(r0=2.688411, s=2.000000)
+  N_2s : PowerConfinement(r0=2.683411, s=2.000000)
+  N_n : PowerConfinement(r0=4.025117, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 2.6834110986884383   2.688411098688438   4.0251166480326575
+VCONF:
+  N_2p : PowerConfinement(r0=2.683411, s=2.000000)
+  N_2s : PowerConfinement(r0=2.688411, s=2.000000)
+  N_n : PowerConfinement(r0=4.025117, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 2.6834110986884383   2.6834110986884383   4.030116648032657
+VCONF:
+  N_2p : PowerConfinement(r0=2.683411, s=2.000000)
+  N_2s : PowerConfinement(r0=2.683411, s=2.000000)
+  N_n : PowerConfinement(r0=4.030117, s=2.000000)
+RESIDUAL: 0.0
+
+*******************************************
+Optimization finished after 10 iterations
+Adjustable parameters and final values:
+  N_2p.r0 : 2.683411
+  N_2s.r0 : 2.683411
+  N_n.r0 : 4.025117
+*******************************************
+
+VCONF:
+  N_2p : PowerConfinement(r0=2.683411, s=2.000000)
+  N_2s : PowerConfinement(r0=2.683411, s=2.000000)
+  N_n : PowerConfinement(r0=4.025117, s=2.000000)

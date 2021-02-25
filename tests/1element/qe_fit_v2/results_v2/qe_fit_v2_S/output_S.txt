@@ -1,0 +1,146 @@
+element =  S
+struct =  bcc
+nbands =  -4
+path =  GHNGP
+kpts =  (8,8,8)
+lattice constant a =  3.158
+lattice constant b =  3.158
+lattice constant c =  3.158
+alpha angle =  90.0
+element =  S
+struct =  bcc
+kpts =  (8,8,8)
+element =  S
+configuration =  [Ne] 3s2 3p4 3d0
+valence =  ['3s', '3p', '3d']
+occupations =  {'3s': 2, '3p': 4, '3d': 0}
+nls =  3p
+rNum =  600
+lmax =  d
+*******************************************
+Starting confinement parameter optimization
+Adjustable parameters and initial values:
+  S_3d.r0 : 3.968425
+  S_3p.r0 : 3.968425
+  S_3s.r0 : 3.968425
+  S_n.r0 : 5.952637
+*******************************************
+
+OPT_VAL: 3.9684248642575497   3.9684248642575497   3.9684248642575497   5.9526372963863246
+VCONF:
+  S_3d : PowerConfinement(r0=3.968425, s=2.000000)
+  S_3p : PowerConfinement(r0=3.968425, s=2.000000)
+  S_3s : PowerConfinement(r0=3.968425, s=2.000000)
+  S_n : PowerConfinement(r0=5.952637, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 4.16842486425755   3.9684248642575497   3.9684248642575497   5.9526372963863246
+VCONF:
+  S_3d : PowerConfinement(r0=4.168425, s=2.000000)
+  S_3p : PowerConfinement(r0=3.968425, s=2.000000)
+  S_3s : PowerConfinement(r0=3.968425, s=2.000000)
+  S_n : PowerConfinement(r0=5.952637, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 3.9684248642575497   4.16842486425755   3.9684248642575497   5.9526372963863246
+VCONF:
+  S_3d : PowerConfinement(r0=3.968425, s=2.000000)
+  S_3p : PowerConfinement(r0=4.168425, s=2.000000)
+  S_3s : PowerConfinement(r0=3.968425, s=2.000000)
+  S_n : PowerConfinement(r0=5.952637, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 3.9684248642575497   3.9684248642575497   4.16842486425755   5.9526372963863246
+VCONF:
+  S_3d : PowerConfinement(r0=3.968425, s=2.000000)
+  S_3p : PowerConfinement(r0=3.968425, s=2.000000)
+  S_3s : PowerConfinement(r0=4.168425, s=2.000000)
+  S_n : PowerConfinement(r0=5.952637, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 3.9684248642575497   3.9684248642575497   3.9684248642575497   6.152637296386325
+VCONF:
+  S_3d : PowerConfinement(r0=3.968425, s=2.000000)
+  S_3p : PowerConfinement(r0=3.968425, s=2.000000)
+  S_3s : PowerConfinement(r0=3.968425, s=2.000000)
+  S_n : PowerConfinement(r0=6.152637, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 3.9934248642575496   3.9684248642575497   3.9684248642575497   5.9526372963863246
+VCONF:
+  S_3d : PowerConfinement(r0=3.993425, s=2.000000)
+  S_3p : PowerConfinement(r0=3.968425, s=2.000000)
+  S_3s : PowerConfinement(r0=3.968425, s=2.000000)
+  S_n : PowerConfinement(r0=5.952637, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 3.9684248642575497   3.9934248642575496   3.9684248642575497   5.9526372963863246
+VCONF:
+  S_3d : PowerConfinement(r0=3.968425, s=2.000000)
+  S_3p : PowerConfinement(r0=3.993425, s=2.000000)
+  S_3s : PowerConfinement(r0=3.968425, s=2.000000)
+  S_n : PowerConfinement(r0=5.952637, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 3.9684248642575497   3.9684248642575497   3.9934248642575496   5.9526372963863246
+VCONF:
+  S_3d : PowerConfinement(r0=3.968425, s=2.000000)
+  S_3p : PowerConfinement(r0=3.968425, s=2.000000)
+  S_3s : PowerConfinement(r0=3.993425, s=2.000000)
+  S_n : PowerConfinement(r0=5.952637, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 3.9684248642575497   3.9684248642575497   3.9684248642575497   5.977637296386325
+VCONF:
+  S_3d : PowerConfinement(r0=3.968425, s=2.000000)
+  S_3p : PowerConfinement(r0=3.968425, s=2.000000)
+  S_3s : PowerConfinement(r0=3.968425, s=2.000000)
+  S_n : PowerConfinement(r0=5.977637, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 3.9734248642575496   3.9684248642575497   3.9684248642575497   5.9526372963863246
+VCONF:
+  S_3d : PowerConfinement(r0=3.973425, s=2.000000)
+  S_3p : PowerConfinement(r0=3.968425, s=2.000000)
+  S_3s : PowerConfinement(r0=3.968425, s=2.000000)
+  S_n : PowerConfinement(r0=5.952637, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 3.9684248642575497   3.9734248642575496   3.9684248642575497   5.9526372963863246
+VCONF:
+  S_3d : PowerConfinement(r0=3.968425, s=2.000000)
+  S_3p : PowerConfinement(r0=3.973425, s=2.000000)
+  S_3s : PowerConfinement(r0=3.968425, s=2.000000)
+  S_n : PowerConfinement(r0=5.952637, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 3.9684248642575497   3.9684248642575497   3.9734248642575496   5.9526372963863246
+VCONF:
+  S_3d : PowerConfinement(r0=3.968425, s=2.000000)
+  S_3p : PowerConfinement(r0=3.968425, s=2.000000)
+  S_3s : PowerConfinement(r0=3.973425, s=2.000000)
+  S_n : PowerConfinement(r0=5.952637, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 3.9684248642575497   3.9684248642575497   3.9684248642575497   5.957637296386324
+VCONF:
+  S_3d : PowerConfinement(r0=3.968425, s=2.000000)
+  S_3p : PowerConfinement(r0=3.968425, s=2.000000)
+  S_3s : PowerConfinement(r0=3.968425, s=2.000000)
+  S_n : PowerConfinement(r0=5.957637, s=2.000000)
+RESIDUAL: 0.0
+
+*******************************************
+Optimization finished after 13 iterations
+Adjustable parameters and final values:
+  S_3d.r0 : 3.968425
+  S_3p.r0 : 3.968425
+  S_3s.r0 : 3.968425
+  S_n.r0 : 5.952637
+*******************************************
+
+VCONF:
+  S_3d : PowerConfinement(r0=3.968425, s=2.000000)
+  S_3p : PowerConfinement(r0=3.968425, s=2.000000)
+  S_3s : PowerConfinement(r0=3.968425, s=2.000000)
+  S_n : PowerConfinement(r0=5.952637, s=2.000000)

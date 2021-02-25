@@ -1,0 +1,146 @@
+element =  Bi
+struct =  bcc
+nbands =  -4
+path =  GHNGP
+kpts =  (8,8,8)
+lattice constant a =  3.985
+lattice constant b =  3.985
+lattice constant c =  3.985
+alpha angle =  90.0
+element =  Bi
+struct =  bcc
+kpts =  (8,8,8)
+element =  Bi
+configuration =  [Xe] 5d10 6s2 6p3 6d0
+valence =  ['6s', '6p', '6d']
+occupations =  {'6s': 2, '6p': 3, '6d': 0}
+nls =  6p
+rNum =  600
+lmax =  f
+*******************************************
+Starting confinement parameter optimization
+Adjustable parameters and initial values:
+  Bi_6d.r0 : 5.593589
+  Bi_6p.r0 : 5.593589
+  Bi_6s.r0 : 5.593589
+  Bi_n.r0 : 8.390384
+*******************************************
+
+OPT_VAL: 5.593589332477308   5.593589332477308   5.593589332477308   8.390383998715961
+VCONF:
+  Bi_6d : PowerConfinement(r0=5.593589, s=2.000000)
+  Bi_6p : PowerConfinement(r0=5.593589, s=2.000000)
+  Bi_6s : PowerConfinement(r0=5.593589, s=2.000000)
+  Bi_n : PowerConfinement(r0=8.390384, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 5.793589332477308   5.593589332477308   5.593589332477308   8.390383998715961
+VCONF:
+  Bi_6d : PowerConfinement(r0=5.793589, s=2.000000)
+  Bi_6p : PowerConfinement(r0=5.593589, s=2.000000)
+  Bi_6s : PowerConfinement(r0=5.593589, s=2.000000)
+  Bi_n : PowerConfinement(r0=8.390384, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 5.593589332477308   5.793589332477308   5.593589332477308   8.390383998715961
+VCONF:
+  Bi_6d : PowerConfinement(r0=5.593589, s=2.000000)
+  Bi_6p : PowerConfinement(r0=5.793589, s=2.000000)
+  Bi_6s : PowerConfinement(r0=5.593589, s=2.000000)
+  Bi_n : PowerConfinement(r0=8.390384, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 5.593589332477308   5.593589332477308   5.793589332477308   8.390383998715961
+VCONF:
+  Bi_6d : PowerConfinement(r0=5.593589, s=2.000000)
+  Bi_6p : PowerConfinement(r0=5.593589, s=2.000000)
+  Bi_6s : PowerConfinement(r0=5.793589, s=2.000000)
+  Bi_n : PowerConfinement(r0=8.390384, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 5.593589332477308   5.593589332477308   5.593589332477308   8.59038399871596
+VCONF:
+  Bi_6d : PowerConfinement(r0=5.593589, s=2.000000)
+  Bi_6p : PowerConfinement(r0=5.593589, s=2.000000)
+  Bi_6s : PowerConfinement(r0=5.593589, s=2.000000)
+  Bi_n : PowerConfinement(r0=8.590384, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 5.618589332477308   5.593589332477308   5.593589332477308   8.390383998715961
+VCONF:
+  Bi_6d : PowerConfinement(r0=5.618589, s=2.000000)
+  Bi_6p : PowerConfinement(r0=5.593589, s=2.000000)
+  Bi_6s : PowerConfinement(r0=5.593589, s=2.000000)
+  Bi_n : PowerConfinement(r0=8.390384, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 5.593589332477308   5.618589332477308   5.593589332477308   8.390383998715961
+VCONF:
+  Bi_6d : PowerConfinement(r0=5.593589, s=2.000000)
+  Bi_6p : PowerConfinement(r0=5.618589, s=2.000000)
+  Bi_6s : PowerConfinement(r0=5.593589, s=2.000000)
+  Bi_n : PowerConfinement(r0=8.390384, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 5.593589332477308   5.593589332477308   5.618589332477308   8.390383998715961
+VCONF:
+  Bi_6d : PowerConfinement(r0=5.593589, s=2.000000)
+  Bi_6p : PowerConfinement(r0=5.593589, s=2.000000)
+  Bi_6s : PowerConfinement(r0=5.618589, s=2.000000)
+  Bi_n : PowerConfinement(r0=8.390384, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 5.593589332477308   5.593589332477308   5.593589332477308   8.415383998715962
+VCONF:
+  Bi_6d : PowerConfinement(r0=5.593589, s=2.000000)
+  Bi_6p : PowerConfinement(r0=5.593589, s=2.000000)
+  Bi_6s : PowerConfinement(r0=5.593589, s=2.000000)
+  Bi_n : PowerConfinement(r0=8.415384, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 5.5985893324773075   5.593589332477308   5.593589332477308   8.390383998715961
+VCONF:
+  Bi_6d : PowerConfinement(r0=5.598589, s=2.000000)
+  Bi_6p : PowerConfinement(r0=5.593589, s=2.000000)
+  Bi_6s : PowerConfinement(r0=5.593589, s=2.000000)
+  Bi_n : PowerConfinement(r0=8.390384, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 5.593589332477308   5.5985893324773075   5.593589332477308   8.390383998715961
+VCONF:
+  Bi_6d : PowerConfinement(r0=5.593589, s=2.000000)
+  Bi_6p : PowerConfinement(r0=5.598589, s=2.000000)
+  Bi_6s : PowerConfinement(r0=5.593589, s=2.000000)
+  Bi_n : PowerConfinement(r0=8.390384, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 5.593589332477308   5.593589332477308   5.5985893324773075   8.390383998715961
+VCONF:
+  Bi_6d : PowerConfinement(r0=5.593589, s=2.000000)
+  Bi_6p : PowerConfinement(r0=5.593589, s=2.000000)
+  Bi_6s : PowerConfinement(r0=5.598589, s=2.000000)
+  Bi_n : PowerConfinement(r0=8.390384, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 5.593589332477308   5.593589332477308   5.593589332477308   8.395383998715962
+VCONF:
+  Bi_6d : PowerConfinement(r0=5.593589, s=2.000000)
+  Bi_6p : PowerConfinement(r0=5.593589, s=2.000000)
+  Bi_6s : PowerConfinement(r0=5.593589, s=2.000000)
+  Bi_n : PowerConfinement(r0=8.395384, s=2.000000)
+RESIDUAL: 0.0
+
+*******************************************
+Optimization finished after 13 iterations
+Adjustable parameters and final values:
+  Bi_6d.r0 : 5.593589
+  Bi_6p.r0 : 5.593589
+  Bi_6s.r0 : 5.593589
+  Bi_n.r0 : 8.390384
+*******************************************
+
+VCONF:
+  Bi_6d : PowerConfinement(r0=5.593589, s=2.000000)
+  Bi_6p : PowerConfinement(r0=5.593589, s=2.000000)
+  Bi_6s : PowerConfinement(r0=5.593589, s=2.000000)
+  Bi_n : PowerConfinement(r0=8.390384, s=2.000000)

@@ -1,0 +1,146 @@
+element =  Ge
+struct =  diamond
+nbands =  -4
+path =  LGXUG
+kpts =  (8,8,8)
+lattice constant a =  5.6575
+lattice constant b =  5.6575
+lattice constant c =  5.6575
+alpha angle =  90.0
+element =  Ge
+struct =  diamond
+kpts =  (8,8,8)
+element =  Ge
+configuration =  [Ar] 3d10 4s2 4p2 4d0
+valence =  ['4s', '4p', '4d']
+occupations =  {'4s': 2, '4p': 2, '4d': 0}
+nls =  4p
+rNum =  600
+lmax =  d
+*******************************************
+Starting confinement parameter optimization
+Adjustable parameters and initial values:
+  Ge_4d.r0 : 4.535343
+  Ge_4p.r0 : 4.535343
+  Ge_4s.r0 : 4.535343
+  Ge_n.r0 : 6.803014
+*******************************************
+
+OPT_VAL: 4.535342702008628   4.535342702008628   4.535342702008628   6.803014053012943
+VCONF:
+  Ge_4d : PowerConfinement(r0=4.535343, s=2.000000)
+  Ge_4p : PowerConfinement(r0=4.535343, s=2.000000)
+  Ge_4s : PowerConfinement(r0=4.535343, s=2.000000)
+  Ge_n : PowerConfinement(r0=6.803014, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 4.735342702008628   4.535342702008628   4.535342702008628   6.803014053012943
+VCONF:
+  Ge_4d : PowerConfinement(r0=4.735343, s=2.000000)
+  Ge_4p : PowerConfinement(r0=4.535343, s=2.000000)
+  Ge_4s : PowerConfinement(r0=4.535343, s=2.000000)
+  Ge_n : PowerConfinement(r0=6.803014, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 4.535342702008628   4.735342702008628   4.535342702008628   6.803014053012943
+VCONF:
+  Ge_4d : PowerConfinement(r0=4.535343, s=2.000000)
+  Ge_4p : PowerConfinement(r0=4.735343, s=2.000000)
+  Ge_4s : PowerConfinement(r0=4.535343, s=2.000000)
+  Ge_n : PowerConfinement(r0=6.803014, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 4.535342702008628   4.535342702008628   4.735342702008628   6.803014053012943
+VCONF:
+  Ge_4d : PowerConfinement(r0=4.535343, s=2.000000)
+  Ge_4p : PowerConfinement(r0=4.535343, s=2.000000)
+  Ge_4s : PowerConfinement(r0=4.735343, s=2.000000)
+  Ge_n : PowerConfinement(r0=6.803014, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 4.535342702008628   4.535342702008628   4.535342702008628   7.003014053012943
+VCONF:
+  Ge_4d : PowerConfinement(r0=4.535343, s=2.000000)
+  Ge_4p : PowerConfinement(r0=4.535343, s=2.000000)
+  Ge_4s : PowerConfinement(r0=4.535343, s=2.000000)
+  Ge_n : PowerConfinement(r0=7.003014, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 4.5603427020086285   4.535342702008628   4.535342702008628   6.803014053012943
+VCONF:
+  Ge_4d : PowerConfinement(r0=4.560343, s=2.000000)
+  Ge_4p : PowerConfinement(r0=4.535343, s=2.000000)
+  Ge_4s : PowerConfinement(r0=4.535343, s=2.000000)
+  Ge_n : PowerConfinement(r0=6.803014, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 4.535342702008628   4.5603427020086285   4.535342702008628   6.803014053012943
+VCONF:
+  Ge_4d : PowerConfinement(r0=4.535343, s=2.000000)
+  Ge_4p : PowerConfinement(r0=4.560343, s=2.000000)
+  Ge_4s : PowerConfinement(r0=4.535343, s=2.000000)
+  Ge_n : PowerConfinement(r0=6.803014, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 4.535342702008628   4.535342702008628   4.5603427020086285   6.803014053012943
+VCONF:
+  Ge_4d : PowerConfinement(r0=4.535343, s=2.000000)
+  Ge_4p : PowerConfinement(r0=4.535343, s=2.000000)
+  Ge_4s : PowerConfinement(r0=4.560343, s=2.000000)
+  Ge_n : PowerConfinement(r0=6.803014, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 4.535342702008628   4.535342702008628   4.535342702008628   6.828014053012943
+VCONF:
+  Ge_4d : PowerConfinement(r0=4.535343, s=2.000000)
+  Ge_4p : PowerConfinement(r0=4.535343, s=2.000000)
+  Ge_4s : PowerConfinement(r0=4.535343, s=2.000000)
+  Ge_n : PowerConfinement(r0=6.828014, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 4.540342702008628   4.535342702008628   4.535342702008628   6.803014053012943
+VCONF:
+  Ge_4d : PowerConfinement(r0=4.540343, s=2.000000)
+  Ge_4p : PowerConfinement(r0=4.535343, s=2.000000)
+  Ge_4s : PowerConfinement(r0=4.535343, s=2.000000)
+  Ge_n : PowerConfinement(r0=6.803014, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 4.535342702008628   4.540342702008628   4.535342702008628   6.803014053012943
+VCONF:
+  Ge_4d : PowerConfinement(r0=4.535343, s=2.000000)
+  Ge_4p : PowerConfinement(r0=4.540343, s=2.000000)
+  Ge_4s : PowerConfinement(r0=4.535343, s=2.000000)
+  Ge_n : PowerConfinement(r0=6.803014, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 4.535342702008628   4.535342702008628   4.540342702008628   6.803014053012943
+VCONF:
+  Ge_4d : PowerConfinement(r0=4.535343, s=2.000000)
+  Ge_4p : PowerConfinement(r0=4.535343, s=2.000000)
+  Ge_4s : PowerConfinement(r0=4.540343, s=2.000000)
+  Ge_n : PowerConfinement(r0=6.803014, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 4.535342702008628   4.535342702008628   4.535342702008628   6.8080140530129425
+VCONF:
+  Ge_4d : PowerConfinement(r0=4.535343, s=2.000000)
+  Ge_4p : PowerConfinement(r0=4.535343, s=2.000000)
+  Ge_4s : PowerConfinement(r0=4.535343, s=2.000000)
+  Ge_n : PowerConfinement(r0=6.808014, s=2.000000)
+RESIDUAL: 0.0
+
+*******************************************
+Optimization finished after 13 iterations
+Adjustable parameters and final values:
+  Ge_4d.r0 : 4.535343
+  Ge_4p.r0 : 4.535343
+  Ge_4s.r0 : 4.535343
+  Ge_n.r0 : 6.803014
+*******************************************
+
+VCONF:
+  Ge_4d : PowerConfinement(r0=4.535343, s=2.000000)
+  Ge_4p : PowerConfinement(r0=4.535343, s=2.000000)
+  Ge_4s : PowerConfinement(r0=4.535343, s=2.000000)
+  Ge_n : PowerConfinement(r0=6.803014, s=2.000000)
