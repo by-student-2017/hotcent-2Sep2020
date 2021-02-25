@@ -5,6 +5,6 @@ setup
 3. mv PWscf_PBE_PAW_Potentials pseudo
 
 run
-1. gedit qe_table
+1. gedit gpaw_table
 2. gedit table_fit
 3. ./run.sh Si
