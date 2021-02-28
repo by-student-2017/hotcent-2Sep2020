@@ -17,7 +17,7 @@ import ast
 #read cif file
 import ase.io
 
-element = 'Xx'
+element = 'Co'
 #elem_data = commands.getoutput("awk '{if($1==\""+str(element)+"\"{print $0}}' gpaw_table") #python2
 elem_data = subprocess.getoutput("awk '{if($1==\""+str(element)+"\"){print $0}}' qe_table") #python3
 elem_list = elem_data.split(" | ")
@@ -94,11 +94,11 @@ atom.info['occupations'] = occupations
 dpbs = DftbPlusBandStructure(Hamiltonian_SCC='Yes',
                              Hamiltonian_OrbitalResolvedSCC='No',
                              Hamiltonian_MaxAngularMomentum_='',
-                             Hamiltonian_MaxAngularMomentum_Xx=lmax,
+                             Hamiltonian_MaxAngularMomentum_Co=lmax,
                              Hamiltonian_PolynomialRepulsive='SetForAll {Yes}')
 
 bs_qe = read_json('bs_qe.json')  # the reference band structure (DFT)
-atoms = ase.io.read("./primCIFs/Xx.cif")
+atoms = ase.io.read("./primCIFs/Co.cif")
 #atoms = bulk(element,struct)
 # see hotcent.tools.DftbPlusBandStructure for more information
 # on the various keyword arguments used below

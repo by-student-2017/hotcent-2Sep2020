@@ -1,0 +1,136 @@
+Geometry = GenFormat {
+2  S
+In
+1      1      0.000000000000000      0.000000000000000      0.000000000000000
+2      1      1.649204500000000      1.649204500000000      2.531279000000000
+0.000000000000000      0.000000000000000      0.000000000000000
+3.298409000000000      0.000000000000000      0.000000000000000
+0.000000000000000      3.298409000000000      0.000000000000000
+0.000000000000000      0.000000000000000      5.062558000000000
+}
+Hamiltonian = DFTB {
+  KPointsAndWeights = {
+0.0 0.0 0.0 1.0
+0.0 0.1 0.0 1.0
+0.0 0.2 0.0 1.0
+0.0 0.3 0.0 1.0
+0.0 0.4 0.0 1.0
+0.0 0.5 0.0 1.0
+0.1 0.5 0.0 1.0
+0.2 0.5 0.0 1.0
+0.3 0.5 0.0 1.0
+0.4 0.5 0.0 1.0
+0.5 0.5 0.0 1.0
+0.4285714 0.4285714 0.0 1.0
+0.35714289999999993 0.35714289999999993 0.0 1.0
+0.2857143 0.2857143 0.0 1.0
+0.2142857 0.2142857 0.0 1.0
+0.1428571 0.1428571 0.0 1.0
+0.0714286 0.0714286 0.0 1.0
+0.0 0.0 0.0 1.0
+0.0 0.0 0.1666666885632 1.0
+0.0 0.0 0.3333332236416 1.0
+0.0 0.0 0.49999991220479995 1.0
+0.0 0.1 0.49999991220479995 1.0
+0.0 0.2 0.49999991220479995 1.0
+0.0 0.3 0.49999991220479995 1.0
+0.0 0.4 0.49999991220479995 1.0
+0.0 0.5 0.49999991220479995 1.0
+0.0833333 0.5 0.49999991220479995 1.0
+0.1666667 0.5 0.49999991220479995 1.0
+0.25 0.5 0.49999991220479995 1.0
+0.33333330000000005 0.5 0.49999991220479995 1.0
+0.4166667 0.5 0.49999991220479995 1.0
+0.5 0.5 0.49999991220479995 1.0
+0.4444444 0.4444444 0.49999991220479995 1.0
+0.3888889 0.3888889 0.49999991220479995 1.0
+0.33333330000000005 0.33333330000000005 0.49999991220479995 1.0
+0.2777778 0.2777778 0.49999991220479995 1.0
+0.2222222 0.2222222 0.49999991220479995 1.0
+0.1666667 0.1666667 0.49999991220479995 1.0
+0.1111111 0.1111111 0.49999991220479995 1.0
+0.05555559999999999 0.05555559999999999 0.49999991220479995 1.0
+0.0 0.0 0.49999991220479995 1.0
+0.0 0.5 0.0 1.0
+0.0 0.5 0.1250000164224 1.0
+0.0 0.5 0.24999987936 1.0
+0.0 0.5 0.3749998957824 1.0
+0.0 0.5 0.49999991220479995 1.0
+0.5 0.5 0.0 1.0
+0.5 0.5 0.1666666885632 1.0
+0.5 0.5 0.3333332236416 1.0
+0.5 0.5 0.49999991220479995 1.0
+  }
+  MaxAngularMomentum = {
+    In = d
+  }
+  MaxSCCIterations = 1
+  OrbitalResolvedSCC = No
+  PolynomialRepulsive = SetForAll {
+Yes
+  }
+  ReadInitialCharges = Yes
+  SCC = Yes
+  SCCTolerance = 1000000.0
+  SlaterKosterFiles = Type2FileNames {
+    Prefix = /home/inukai/tango/tests/1element/qe_fit_v3_In/
+    Separator = "-"
+    Suffix = ".skf"
+    LowerCaseTypeName = No
+  }
+  OldSKInterpolation = No
+  Mixer = Broyden {
+    MixingParameter = 0.20000000000000001
+    CachedIterations = -1
+    InverseJacobiWeight = 1.0000000000000000E-002
+    MinimalWeight = 1.0000000000000000
+    MaximalWeight = 100000.00000000000
+    WeightFactor = 1.0000000000000000E-002
+  }
+  DampXH = No
+  EwaldParameter = 0.0000000000000000
+  SpinPolarisation = {}
+  ElectricField = {}
+  Eigensolver = RelativelyRobust {}
+  Filling = Fermi {
+    Temperature = 0.0000000000000000
+    IndependentKFilling = No
+  }
+  Charge = 0.0000000000000000
+  Dispersion = {}
+  ThirdOrder = No
+  ThirdOrderFull = No
+  Differentiation = FiniteDiff {
+    Delta = 1.2207031250000000E-004
+  }
+  ForceEvaluation = "Traditional"
+}
+Options = {
+  WriteResultsTag = Yes
+  WriteAutotestTag = No
+  WriteDetailedXML = No
+  WriteDetailedOut = Yes
+  RestartFrequency = 20
+  RandomSeed = 0
+  WriteHS = No
+  WriteRealHS = No
+  MinimiseMemoryUsage = No
+  ShowFoldedCoords = No
+}
+ParserOptions = {
+  IgnoreUnprocessedNodes = Yes
+  ParserVersion = 5
+  WriteHSDInput = Yes
+  WriteXMLInput = No
+  StopAfterParsing = No
+}
+Driver = {}
+ExcitedState = {}
+Analysis = {
+  ProjectStates = {}
+  MullikenAnalysis = Yes
+  AtomResolvedEnergies = No
+  WriteEigenvectors = No
+  WriteBandOut = Yes
+  CalculateForces = No
+}

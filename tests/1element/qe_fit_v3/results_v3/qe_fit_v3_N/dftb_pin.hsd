@@ -1,0 +1,142 @@
+Geometry = GenFormat {
+8  S
+N
+1      1      3.416302855320000      3.416302855320000      3.416302855320000
+2      1      5.868979144680000      2.773885144680000      0.321208855320000
+3      1      2.773885144680000      0.321208855320000      5.868979144680000
+4      1      0.321208855320000      5.868979144680000      2.773885144680000
+5      1      2.773885144680000      2.773885144680000      2.773885144680000
+6      1      0.321208855320000      3.416302855320000      5.868979144680000
+7      1      3.416302855320000      5.868979144680000      0.321208855320000
+8      1      5.868979144680000      0.321208855320000      3.416302855320000
+0.000000000000000      0.000000000000000      0.000000000000000
+6.190188000000000      0.000000000000000      0.000000000000000
+0.000000000000000      6.190188000000000      0.000000000000000
+0.000000000000000      0.000000000000000      6.190188000000000
+}
+Hamiltonian = DFTB {
+  KPointsAndWeights = {
+0.0 0.0 0.0 1.0
+0.0 0.0833333 0.0 1.0
+0.0 0.1666667 0.0 1.0
+0.0 0.25 0.0 1.0
+0.0 0.33333330000000005 0.0 1.0
+0.0 0.4166667 0.0 1.0
+0.0 0.5 0.0 1.0
+0.0833333 0.5 0.0 1.0
+0.1666667 0.5 0.0 1.0
+0.25 0.5 0.0 1.0
+0.33333330000000005 0.5 0.0 1.0
+0.4166667 0.5 0.0 1.0
+0.5 0.5 0.0 1.0
+0.4444444 0.4444444 0.0 1.0
+0.38888890000000004 0.38888890000000004 0.0 1.0
+0.33333330000000005 0.33333330000000005 0.0 1.0
+0.2777778000000001 0.2777778000000001 0.0 1.0
+0.2222222 0.2222222 0.0 1.0
+0.1666667 0.1666667 0.0 1.0
+0.1111111 0.1111111 0.0 1.0
+0.0555556 0.0555556 0.0 1.0
+0.0 0.0 0.0 1.0
+0.0454545 0.0454545 0.0454545 1.0
+0.0909091 0.0909091 0.0909091 1.0
+0.13636360000000003 0.13636360000000003 0.13636360000000003 1.0
+0.1818182 0.1818182 0.1818182 1.0
+0.2272727 0.2272727 0.2272727 1.0
+0.2727273 0.2727273 0.2727273 1.0
+0.3181818 0.3181818 0.3181818 1.0
+0.3636364 0.3636364 0.3636364 1.0
+0.40909090000000004 0.40909090000000004 0.40909090000000004 1.0
+0.45454549999999994 0.45454549999999994 0.45454549999999994 1.0
+0.5 0.5 0.5 1.0
+0.45000000000000007 0.5 0.45000000000000007 1.0
+0.4 0.5 0.4 1.0
+0.35 0.5 0.35 1.0
+0.3 0.5 0.3 1.0
+0.25 0.5 0.25 1.0
+0.2 0.5 0.2 1.0
+0.15 0.5 0.15 1.0
+0.1 0.5 0.1 1.0
+0.05 0.5 0.05 1.0
+0.0 0.5 0.0 1.0
+0.5 0.5 0.0 1.0
+0.5 0.5 0.0833333 1.0
+0.5 0.5 0.1666667 1.0
+0.5 0.5 0.25 1.0
+0.5 0.5 0.33333330000000005 1.0
+0.5 0.5 0.4166667 1.0
+0.5 0.5 0.5 1.0
+  }
+  MaxAngularMomentum = {
+    N = p
+  }
+  MaxSCCIterations = 1
+  OrbitalResolvedSCC = No
+  PolynomialRepulsive = SetForAll {
+Yes
+  }
+  ReadInitialCharges = Yes
+  SCC = Yes
+  SCCTolerance = 1000000.0
+  SlaterKosterFiles = Type2FileNames {
+    Prefix = /home/inukai/tango/tests/1element/qe_fit_v3_N/
+    Separator = "-"
+    Suffix = ".skf"
+    LowerCaseTypeName = No
+  }
+  OldSKInterpolation = No
+  Mixer = Broyden {
+    MixingParameter = 0.20000000000000001
+    CachedIterations = -1
+    InverseJacobiWeight = 1.0000000000000000E-002
+    MinimalWeight = 1.0000000000000000
+    MaximalWeight = 100000.00000000000
+    WeightFactor = 1.0000000000000000E-002
+  }
+  DampXH = No
+  EwaldParameter = 0.0000000000000000
+  SpinPolarisation = {}
+  ElectricField = {}
+  Eigensolver = RelativelyRobust {}
+  Filling = Fermi {
+    Temperature = 0.0000000000000000
+    IndependentKFilling = No
+  }
+  Charge = 0.0000000000000000
+  Dispersion = {}
+  ThirdOrder = No
+  ThirdOrderFull = No
+  Differentiation = FiniteDiff {
+    Delta = 1.2207031250000000E-004
+  }
+  ForceEvaluation = "Traditional"
+}
+Options = {
+  WriteResultsTag = Yes
+  WriteAutotestTag = No
+  WriteDetailedXML = No
+  WriteDetailedOut = Yes
+  RestartFrequency = 20
+  RandomSeed = 0
+  WriteHS = No
+  WriteRealHS = No
+  MinimiseMemoryUsage = No
+  ShowFoldedCoords = No
+}
+ParserOptions = {
+  IgnoreUnprocessedNodes = Yes
+  ParserVersion = 5
+  WriteHSDInput = Yes
+  WriteXMLInput = No
+  StopAfterParsing = No
+}
+Driver = {}
+ExcitedState = {}
+Analysis = {
+  ProjectStates = {}
+  MullikenAnalysis = Yes
+  AtomResolvedEnergies = No
+  WriteEigenvectors = No
+  WriteBandOut = Yes
+  CalculateForces = No
+}

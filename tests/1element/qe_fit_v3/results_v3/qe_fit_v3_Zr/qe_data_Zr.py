@@ -16,7 +16,7 @@ import os
 #read cif file
 import ase.io
 
-element = 'Xx'
+element = 'Zr'
 #xc = 'LDA'
 xc = 'PBE'
 #elem_data = commands.getoutput("awk '{if($1==\""+str(element)+"\"{print $0}}' qe_table") #python2
@@ -45,7 +45,7 @@ kpts = ast.literal_eval(nkpts)
 #Lalpha = float(elem_list[8])
 #print("alpha angle = ",Lalpha)
 
-atoms = ase.io.read("./primCIFs/Xx.cif")
+atoms = ase.io.read("./primCIFs/Zr.cif")
 #atoms = bulk(element,struct,a=La,b=Lb,c=Lc,alpha=Lalpha)
 #atoms = bulk(element,struct)
 # sc,fcc,bcc,tetragonal,bct,hcp,rhmbohedral,orthorhombic

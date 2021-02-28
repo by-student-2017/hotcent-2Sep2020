@@ -1,0 +1,10 @@
+
+setup
+1. chmod +x run.sh
+2. git clone https://github.com/by-student-2017/PWscf_PBE_GBRV_Potentials.git
+3. mv PWscf_PBE_PAW_Potentials pseudo
+
+run
+1. gedit gpaw_table
+2. gedit table_fit
+3. ./run.sh Si

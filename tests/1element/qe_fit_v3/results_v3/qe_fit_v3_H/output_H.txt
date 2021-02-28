@@ -1,0 +1,74 @@
+element =  H
+struct =  hcp
+nbands =  -4
+path =  GMKGALHA,LM,KH
+kpts =  (8,8,4)
+element =  H
+struct =  hcp
+kpts =  (8,8,4)
+element =  H
+configuration =  1s1
+valence =  ['1s']
+occupations =  {'1s': 1}
+nls =  1s
+rNum =  600
+lmax =  s
+*******************************************
+Starting confinement parameter optimization
+Adjustable parameters and initial values:
+  H_1s.r0 : 1.171630
+  H_n.r0 : 1.757445
+*******************************************
+
+OPT_VAL: 1.1716301980188955   1.7574452970283432
+VCONF:
+  H_1s : PowerConfinement(r0=1.171630, s=2.000000)
+  H_n : PowerConfinement(r0=1.757445, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 1.3716301980188954   1.7574452970283432
+VCONF:
+  H_1s : PowerConfinement(r0=1.371630, s=2.000000)
+  H_n : PowerConfinement(r0=1.757445, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 1.1716301980188955   1.9574452970283431
+VCONF:
+  H_1s : PowerConfinement(r0=1.171630, s=2.000000)
+  H_n : PowerConfinement(r0=1.957445, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 1.1966301980188954   1.7574452970283432
+VCONF:
+  H_1s : PowerConfinement(r0=1.196630, s=2.000000)
+  H_n : PowerConfinement(r0=1.757445, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 1.1716301980188955   1.782445297028343
+VCONF:
+  H_1s : PowerConfinement(r0=1.171630, s=2.000000)
+  H_n : PowerConfinement(r0=1.782445, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 1.1766301980188953   1.7574452970283432
+VCONF:
+  H_1s : PowerConfinement(r0=1.176630, s=2.000000)
+  H_n : PowerConfinement(r0=1.757445, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 1.1716301980188955   1.762445297028343
+VCONF:
+  H_1s : PowerConfinement(r0=1.171630, s=2.000000)
+  H_n : PowerConfinement(r0=1.762445, s=2.000000)
+RESIDUAL: 0.0
+
+*******************************************
+Optimization finished after 7 iterations
+Adjustable parameters and final values:
+  H_1s.r0 : 1.171630
+  H_n.r0 : 1.757445
+*******************************************
+
+VCONF:
+  H_1s : PowerConfinement(r0=1.171630, s=2.000000)
+  H_n : PowerConfinement(r0=1.757445, s=2.000000)

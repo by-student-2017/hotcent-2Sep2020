@@ -1,0 +1,142 @@
+element =  Zr
+struct =  hcp
+nbands =  -4
+path =  GMKGALHA,LM,KH
+kpts =  (8,8,4)
+element =  Zr
+struct =  hcp
+kpts =  (8,8,4)
+element =  Zr
+configuration =  [Kr] 4d2 5s2 5p0
+valence =  ['4d', '5s', '5p']
+occupations =  {'4d': 2, '5s': 2}
+nls =  4d
+rNum =  600
+lmax =  d
+*******************************************
+Starting confinement parameter optimization
+Adjustable parameters and initial values:
+  Zr_4d.r0 : 6.614041
+  Zr_5p.r0 : 6.614041
+  Zr_5s.r0 : 6.614041
+  Zr_n.r0 : 9.921062
+*******************************************
+
+OPT_VAL: 6.614041440429249   6.614041440429249   6.614041440429249   9.921062160643874
+VCONF:
+  Zr_4d : PowerConfinement(r0=6.614041, s=2.000000)
+  Zr_5p : PowerConfinement(r0=6.614041, s=2.000000)
+  Zr_5s : PowerConfinement(r0=6.614041, s=2.000000)
+  Zr_n : PowerConfinement(r0=9.921062, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 6.814041440429249   6.614041440429249   6.614041440429249   9.921062160643874
+VCONF:
+  Zr_4d : PowerConfinement(r0=6.814041, s=2.000000)
+  Zr_5p : PowerConfinement(r0=6.614041, s=2.000000)
+  Zr_5s : PowerConfinement(r0=6.614041, s=2.000000)
+  Zr_n : PowerConfinement(r0=9.921062, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 6.614041440429249   6.814041440429249   6.614041440429249   9.921062160643874
+VCONF:
+  Zr_4d : PowerConfinement(r0=6.614041, s=2.000000)
+  Zr_5p : PowerConfinement(r0=6.814041, s=2.000000)
+  Zr_5s : PowerConfinement(r0=6.614041, s=2.000000)
+  Zr_n : PowerConfinement(r0=9.921062, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 6.614041440429249   6.614041440429249   6.814041440429249   9.921062160643874
+VCONF:
+  Zr_4d : PowerConfinement(r0=6.614041, s=2.000000)
+  Zr_5p : PowerConfinement(r0=6.614041, s=2.000000)
+  Zr_5s : PowerConfinement(r0=6.814041, s=2.000000)
+  Zr_n : PowerConfinement(r0=9.921062, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 6.614041440429249   6.614041440429249   6.614041440429249   10.121062160643874
+VCONF:
+  Zr_4d : PowerConfinement(r0=6.614041, s=2.000000)
+  Zr_5p : PowerConfinement(r0=6.614041, s=2.000000)
+  Zr_5s : PowerConfinement(r0=6.614041, s=2.000000)
+  Zr_n : PowerConfinement(r0=10.121062, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 6.639041440429249   6.614041440429249   6.614041440429249   9.921062160643874
+VCONF:
+  Zr_4d : PowerConfinement(r0=6.639041, s=2.000000)
+  Zr_5p : PowerConfinement(r0=6.614041, s=2.000000)
+  Zr_5s : PowerConfinement(r0=6.614041, s=2.000000)
+  Zr_n : PowerConfinement(r0=9.921062, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 6.614041440429249   6.639041440429249   6.614041440429249   9.921062160643874
+VCONF:
+  Zr_4d : PowerConfinement(r0=6.614041, s=2.000000)
+  Zr_5p : PowerConfinement(r0=6.639041, s=2.000000)
+  Zr_5s : PowerConfinement(r0=6.614041, s=2.000000)
+  Zr_n : PowerConfinement(r0=9.921062, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 6.614041440429249   6.614041440429249   6.639041440429249   9.921062160643874
+VCONF:
+  Zr_4d : PowerConfinement(r0=6.614041, s=2.000000)
+  Zr_5p : PowerConfinement(r0=6.614041, s=2.000000)
+  Zr_5s : PowerConfinement(r0=6.639041, s=2.000000)
+  Zr_n : PowerConfinement(r0=9.921062, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 6.614041440429249   6.614041440429249   6.614041440429249   9.946062160643875
+VCONF:
+  Zr_4d : PowerConfinement(r0=6.614041, s=2.000000)
+  Zr_5p : PowerConfinement(r0=6.614041, s=2.000000)
+  Zr_5s : PowerConfinement(r0=6.614041, s=2.000000)
+  Zr_n : PowerConfinement(r0=9.946062, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 6.619041440429249   6.614041440429249   6.614041440429249   9.921062160643874
+VCONF:
+  Zr_4d : PowerConfinement(r0=6.619041, s=2.000000)
+  Zr_5p : PowerConfinement(r0=6.614041, s=2.000000)
+  Zr_5s : PowerConfinement(r0=6.614041, s=2.000000)
+  Zr_n : PowerConfinement(r0=9.921062, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 6.614041440429249   6.619041440429249   6.614041440429249   9.921062160643874
+VCONF:
+  Zr_4d : PowerConfinement(r0=6.614041, s=2.000000)
+  Zr_5p : PowerConfinement(r0=6.619041, s=2.000000)
+  Zr_5s : PowerConfinement(r0=6.614041, s=2.000000)
+  Zr_n : PowerConfinement(r0=9.921062, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 6.614041440429249   6.614041440429249   6.619041440429249   9.921062160643874
+VCONF:
+  Zr_4d : PowerConfinement(r0=6.614041, s=2.000000)
+  Zr_5p : PowerConfinement(r0=6.614041, s=2.000000)
+  Zr_5s : PowerConfinement(r0=6.619041, s=2.000000)
+  Zr_n : PowerConfinement(r0=9.921062, s=2.000000)
+RESIDUAL: 0.0
+
+OPT_VAL: 6.614041440429249   6.614041440429249   6.614041440429249   9.926062160643875
+VCONF:
+  Zr_4d : PowerConfinement(r0=6.614041, s=2.000000)
+  Zr_5p : PowerConfinement(r0=6.614041, s=2.000000)
+  Zr_5s : PowerConfinement(r0=6.614041, s=2.000000)
+  Zr_n : PowerConfinement(r0=9.926062, s=2.000000)
+RESIDUAL: 0.0
+
+*******************************************
+Optimization finished after 13 iterations
+Adjustable parameters and final values:
+  Zr_4d.r0 : 6.614041
+  Zr_5p.r0 : 6.614041
+  Zr_5s.r0 : 6.614041
+  Zr_n.r0 : 9.921062
+*******************************************
+
+VCONF:
+  Zr_4d : PowerConfinement(r0=6.614041, s=2.000000)
+  Zr_5p : PowerConfinement(r0=6.614041, s=2.000000)
+  Zr_5s : PowerConfinement(r0=6.614041, s=2.000000)
+  Zr_n : PowerConfinement(r0=9.921062, s=2.000000)
